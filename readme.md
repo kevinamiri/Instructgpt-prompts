@@ -1,8 +1,15 @@
 # A collection of chatGPT and GPT-3 (Instuct) magic words and prompts
-This is a collection of magic words and prompts for chatGPT and GPT-3 for various purposes. It is a work in progress. 
-Feel free to contribute by adding more magic words and prompts or by improving the existing ones.
 
-## How to use: (Instruct command + Input text) = Output text
+
+This project is a collection of prompts for ChatGPT and GPT-3 models, designed for various purposes such as Reading comprehension, and Writing. With a wide range of curated prompts, you can use this tool to generate text for your projects, or to learn more about the capabilities of the models.
+
+
+
+## How to use: 
+
+You can use chatGPT or GPT-3 (instruct models ) using the following instructions:
+
+(Instruct) + (Input text) =>  (Output text)
 
 1. Copy the text you want to generate from the list below.
 2. Add the text to the end of the prompt.
@@ -11,9 +18,9 @@ Feel free to contribute by adding more magic words and prompts or by improving t
 
 ### Example:
 
+```prompt
 Write a response to the following email:
 
-```
 Hello,
 
 I am writing to you to request a refund for the purchase I made on your website. I ordered a pair of shoes, but they were the wrong size. I have attached a photo of the shoes I received. I would like to return them and receive a refund for the purchase. Please let me know if you have any questions.
@@ -37,7 +44,7 @@ Best regards,
 ```
 
 
-## Magic words and prompts:
+## Magic words:
 
 
 ### To give directions: (point to a location of your input text)
@@ -547,3 +554,14 @@ More instrcuts commands:
     "Write a quick overview of:"
     "What's the key takeaway from:"
     "Can you provide a condensed summary of:"
+
+
+
+
+
+
+
+
+
+
+Feel free to contribute by adding more magic words and prompts or by improving the existing ones. I'll update the list as soon as I can. Thanks!
