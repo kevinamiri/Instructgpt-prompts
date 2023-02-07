@@ -18,7 +18,8 @@ You can use chatGPT or GPT-3 (instruct models ) using the following instructions
 
 ### Example:
 
-```prompt
+<h4 style='color:#a371f7'>Prompt:<h4>
+```Prompt
 Write a response to the following email:
 
 Hello,
@@ -30,7 +31,8 @@ Thank you,
 
 Response:
 
-```
+<h4 style='color:#3fb950 !important'>Response:</h4>
+```response
 Dear [Name],
 
 Thank you for your email regarding the purchase of the shoes. We are sorry to hear that the shoes were the wrong size. Please provide us with the details of your original order so we can process your refund. Please also include a copy of your invoice or proof of purchase, as well as the photo of the shoes.
@@ -47,91 +49,70 @@ Best regards,
 ## Magic words:
 
 
-### To give directions: (point to a location of your input text)
+### Useful words to give directions to your input texts: (point to a location of your input text)
 
-   "Given text"
-   "following passage"
+- "Given text"
+- "following passage"
 
+### Useful words to instruct: (to give instructions to the model)
 
-### Instruct words: (to give instructions)
+- "Explain"
+- "Create"
+- "Generate"
+- "Provide"
+- "Write"
+- "Summarize"
+- "Paraphrase"
+- "Translate"
+- "Rewrite"
+- "Reword"
+- "Rephrase"
+- "List"
+- "Extract"
+- "Pick out"
+- "Analyze"
+- "Define"
+- "Identify"
+- "Describe"
+- "Predict"
+- "Explain"
+- "Analyze"
+- "compare"
+- "Categorize"
+- "Evaluate"
 
-   "Explain"
-   "Create"
-   "Generate"
-   "Provide"
-   "Write"
-   "Summarize"
-   "Paraphrase"
-   "Translate"
-   "Rewrite"
-   "Reword"
-   "Rephrase"
-   "List"
-   "Extract"
-   "Pick out"
-   "Analyze"
-   "Define"
-   "Identify"
-   "Describe"
-   "Predict"
-   "Explain"
-   "Analyze"
+You may add `Can you` in the case of chatGPT to make it more conversational, but it still works in both the instruct-model and chatGPT models.
 
-You may add `Can you` in case of chatGPT
-
-   "Can you provide"
-   "Can you generate"
-   "Can you write"
-   "Can you create"
-   "Can you explain"
-   "Can you summarize"
-   "Can you paraphrase"
-   "Can you translate"
-   "Can you reword"
-   "Can you rewrite"
-   "Can you rephrase"
-   "Can you categorize"
-   "Can you identify"
-   "Can you list"
-   "Can you condense"
-   "Can you predict"
-   "Can you extract"
-   "Can you pick out"
-   "Can you come up with"
-   "Can you evaluate"
-   "Can you analyze"
-   "Can you define"
-   "Can you compare"
-   "Can you describe"
+- "Can you provide" ...
+- "Can you generate" ...
 
 
-Example of using instructs:
+#### Example of using instructs:
 
-`Instruct` and `Action` + `Direction` + `Input text`
-
-- `Can you` +  `write` +   `a response to the following email`
-- `Please` +  `generate` +   `a definition for`
-- `write` +   `a summary of` + `the following text`
+`Instruct` + `Direction` + `Input text`
 
 
-"Can you provide a definition for:" + `Input text`
-"Can you translate the following:" + `Input text`
-"Create a headline for:" + `Input text`
-"Create a list of:" + `Input text`
-"Explain the significance of:" + `Input text`
-"Generate a character description for:" + `Input text`
-"Generate a poem about:" + `Input text`
-"Generate a script for a scene about:" + `Input text`
-"Generate a story based on:" + `Input text`
+- `Generate` + `a poem` + `based on following passage:`
+  
+  `Input text`
+
+- `Create` + `a report article` + `based on following passage` 
+  
+  `Input text`
+
+- `Write` + `a summary` + `of the following passage`
+  
+  `Input text`
 
 
 
-Example of using instructs:
+#### Example of using above structures:
 
 
-Generate a poem about the following text:
 ```input text
-Generate a poem about the following text:
+Generate a poem based the following:
+
+ghosts, 4th dimension, AI, totalitarian, power
 ``` 
 
 Output:
@@ -161,8 +142,7 @@ But rise above, and hear the call.
 ```
 
 
-More instrcuts commands:
-
+#### More instrcuts commands:
 
 "Make a prediction about:"
 "Provide a comparison and contrast between:"
@@ -191,7 +171,7 @@ More instrcuts commands:
 
 
 
-## Prompts:
+## Useful Prompts:
 
 ### Programming related tasks:
 
@@ -554,10 +534,6 @@ More instrcuts commands:
     "Write a quick overview of:"
     "What's the key takeaway from:"
     "Can you provide a condensed summary of:"
-
-
-
-
 
 
 
