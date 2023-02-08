@@ -82,9 +82,9 @@ Magic words are words that making a good prompts, It helps to make the machine u
     - Can you provide …
     - Can you generate …
 
-### Example of using instructs:
+### Simple Example of using Instructions:
 
-`Instruct` + `Direction` + `Input text`
+`Instruct` + `Direction`
 
 
 - `Generate` + `a poem` + `based on following passage:`
@@ -92,6 +92,7 @@ Magic words are words that making a good prompts, It helps to make the machine u
 - `Create` + `a report article` + `based on following passage`
 
 - `Write` + `a summary` + `of the following passage`
+
 
 
 ### Example of using above structure:
