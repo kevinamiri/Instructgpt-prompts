@@ -1,8 +1,6 @@
-# instruct-prompts
+# A collection of ChatGPT and GPT-3.5 prompts
 
-# A collection of chatGPT and GPT-3 prompts
-
-This project is a collection of prompts for ChatGPT and GPT-3 models, designed for various purposes such as write, analyze and comprehend using chatGPT. 
+This project is a collection of prompts for ChatGPT and GPT-3 models, designed for various purposes such as write, analyze and comprehend using ChatGPT. 
 
 With a wide range of curated prompts, you can use this tool to generate content for your projects, debug your code, find answers to your problems or least learn more about the capabilities of these models.
 
@@ -45,7 +43,7 @@ Best regards,
 [Your Name]
 ```
 
-## Magic words:
+## Magic Words:
 
 Magic words are words that making a good prompts, It helps to make the machine understood. 
 
@@ -79,7 +77,7 @@ Magic words are words that making a good prompts, It helps to make the machine u
     - “Categorize”
     - “Evaluate”
     
-    You may add `Can you` in the case of chatGPT to make it more conversational, but it still works in both the instruct-model and chatGPT models.
+    You may add `Can you` in the case of ChatGPT to make it more conversational, but it still works in both the instruct-model and chatGPT models.
     
     - Can you provide …
     - Can you generate …
@@ -88,34 +86,23 @@ Magic words are words that making a good prompts, It helps to make the machine u
 
 `Instruct` + `Direction` + `Input text`
 
-<aside>
-💡 `Generate` + `a poem` + `based on following passage:`
 
-`Input text`
+- `Generate` + `a poem` + `based on following passage:`
 
-</aside>
+- `Create` + `a report article` + `based on following passage`
 
-<aside>
-💡 `Create` + `a report article` + `based on following passage`
+- `Write` + `a summary` + `of the following passage`
 
-`Input text`
-
-</aside>
-
-<aside>
-💡 `Write` + `a summary` + `of the following passage`
-
-`Input text`
-
-</aside>
 
 ### Example of using above structure:
 
-**User Input:**
+**Input:**
 
-`Write a poem based on the following:`
+```
+Write a poem based on the following:
 
-`ghosts, 4th dimension, AI, totalitarian, power`
+ghosts, 4th dimension, AI, totalitarian, power
+```
 
 **Output:**
 
