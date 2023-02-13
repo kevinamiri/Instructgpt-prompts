@@ -49,105 +49,105 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 
 
 - <details><summary>Useful words to give directions to your input texts: (point to a location of your input text)</summary><p>
-    - Given text
-    <br>
-    - following passage
-    <br>
-    - Following
-    <br>
-    - The following
+  - Given text
+  <br>
+  - following passage
+  <br>
+  - Following
+  <br>
+  - The following
 - <details><summary>Useful words to instruct: (to give instructions to the model)</summary><p>
-    - Explain
+  - Explain
 	<br>
-    - Create
+  - Create
 	<br>
-    - Generate
+  - Generate
 	<br>
-    - Provide
+  - Provide
 	<br>
-    - Write
+  - Write
 	<br>
-    - Summarize
+  - Summarize
 	<br>
-    - Paraphrase
+  - Paraphrase
 	<br>
-    - Translate
+  - Translate
 	<br>
-    - Rewrite
+  - Rewrite
 	<br>
-    - Reword
+  - Reword
 	<br>
-    - Rephrase
+  - Rephrase
 	<br>
-    - List
+  - List
 	<br>
-    - Extract
+  - Extract
 	<br>
-    - Pick out
+  - Pick out
 	<br>
-    - Analyze
+  - Analyze
 	<br>
-    - Define
+  - Define
 	<br>
-    - Identify
+  - Identify
 	<br>
-    - Describe
+  - Describe
 	<br>
-    - Predict
+  - Predict
 	<br>
-    - Explain
+  - Explain
 	<br>
-    - Analyze
+  - Analyze
 	<br>
-    - compare
+  - compare
 	<br>
-    - Categorize
+  - Categorize
 	<br>
-    - Evaluate
+  - Evaluate
 	<br>
-    - Critique
+  - Critique
 	<br>
-    - Differentiate
+  - Differentiate
 	<br>
-    - Examine
+  - Examine
 	<br>
-    - Illustrate
+  - Illustrate
 	<br>
-    - Outline
+  - Outline
 	<br>
-    - Calculate
+  - Calculate
 	<br>
-    - Infer
+  - Infer
 	<br>
-    - Revise
+  - Revise
 	<br>
-    - Summarize
+  - Summarize
 	<br>
-    - Classify
+  - Classify
 	<br>
-    - Develop 
+  - Develop 
 	<br>
-    - Evaluate 
+  - Evaluate 
 	<br>
-    - Formulate 
+  - Formulate 
 	<br>
-    - Discuss
+  - Discuss
 	<br>
-    - Clarify
+  - Clarify
 	<br>
-    - Highlight
+  - Highlight
 	<br>
-    - Simplify
+  - Simplify
 	<br>
-    - Apply
+  - Apply
 	<br>
-    - Suggest / Propose
+  - Suggest / Propose
 	<br>
-    - Make
+  - Make
 	<br>
-     * You may add `Can you` in the case of ChatGPT to make it more conversational, but it still works in both the instruct-model and chatGPT models.
-        - Can you provide …
-        - Can you generate …
+   * You may add `Can you` in the case of ChatGPT to make it more conversational, but it still works in both the instruct-model and chatGPT models.
+    - Can you provide …
+    - Can you generate …
 </p></details>
 
 
@@ -157,104 +157,104 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 
 ## Classification
 
-The following are instruction verbs that are useful for classification tasks in nlp
+Instruction verbs that are useful for classification tasks in nlp
 
 Classify:
-    - Classify the following as a physical or chemical property
+  - Classify the following as a physical or chemical property
 Identify: 
-    - Identify main idea of the given passage
+  - Identify main idea of the given passage
 Categorize:
-    - Categorize the following passage as either a myth or a fact
+  - Categorize the following passage as either a myth or a fact
 Assign:
-    - Assign each item to its corresponding category based on its characteristics
+  - Assign each item to its corresponding category based on its characteristics
 List:
-    - List the five main categories of the given data set.
+  - List the five main categories of the given data set.
 Group:
-    - Group the items based on their common characteristics
+  - Group the items based on their common characteristics
 Sort:
-    - Sort the data based on the date it was collected
+  - Sort the data based on the date it was collected
 Label:
-    - Label each data point with its corresponding category
+  - Label each data point with its corresponding category
 Divide:
-    - Divide the data into smaller subgroups based on their similarities
+  - Divide the data into smaller subgroups based on their similarities
 Group:
-    - Group the items based on their similarity in features
+  - Group the items based on their similarity in features
 Label:
-    - Label each group with a descriptive name.
+  - Label each group with a descriptive name.
 
 ## Generation
 
-The following are instruction verbs that are useful for generation tasks in nlp
+Instruction verbs that are useful for generation tasks
 
 Generate:
-    - Generate a new text based on the given parameters
+  - Generate a new text based on the given parameters
 Create:
-    - Create a short catchy headline based on the following, aim to promote the product
+  - Create a short catchy headline based on the following, aim to promote the product
 Write:
-    - Write a story using the following keywords
+  - Write a story using the following keywords
 Formulate:
-    - Formulate a new sentence based on the given structure
+  - Formulate a new sentence based on the given structure
 Produce:
-    - Produce a new text that is similar in style to the given sample
+  - Produce a new text that is similar in style to the given sample
 Construct:
-    - Construct a new text that combines elements from multiple sources
+  - Construct a new text that combines elements from multiple sources
 Compose:
-    - Compose a new poem based on the given theme
+  - Compose a new poem based on the given theme
 Build:
-    - Build a new text by combining different elements in a creative way
+  - Build a new text by combining different elements in a creative way
 Devise:
-    - Devise a new narrative based on the given information
+  - Devise a new narrative based on the given information
 Invent:
-    - Invent a new story using the following elements.
-    
+  - Invent a new story using the following elements.
+  
 ## Transformation:
 
-Translate, Reword, Summarize, Paraphrase, Simplify, Revise, Illustrate, Outline, Calculate, Infer, Apply
+Instruction verbs that are useful for transformation tasks
 
 Translate:
-    - Translate the following function into C#
-    - Translate the following into 1. English, 2. French, 3. Swedish
+  - Translate the following function into C#
+  - Translate the following into 1. English, 2. French, 3. Swedish
 Reword:
-    - Reword the following sentence to make it more concise
+  - Reword the following sentence to make it more concise
 Summarize:
-    - Summarize the main points of the given article
+  - Summarize the main points of the given article
 Paraphrase:
-    - Paraphrase the following sentence to convey the same meaning
+  - Paraphrase the following sentence to convey the same meaning
 Simplify:
-    - Simplify the following equation for easier understanding
+  - Simplify the following equation for easier understanding
 Revise:
-    - Revise the following paragraph to make it more clear and concise
+  - Revise the following paragraph to make it more clear and concise
 Illustrate:
-    - Illustrate the following concept with an example
+  - Illustrate the following concept with an example
 Outline:
-    - Outline the steps to solve the given problem
+  - Outline the steps to solve the given problem
 Calculate:
-    - Calculate the total cost of the following items
+  - Calculate the total cost of the following items
 Infer:
-    - Infer the meaning of the following word based on context
+  - Infer the meaning of the following word based on context
 Apply:
-    - Apply the following formula to calculate the result
-    - Apply given tone and voice to the passage below
+  - Apply the following formula to calculate the result
+  - Apply given tone and voice to the passage below
 
 
 ## Comparison:
 
-The following are instruction verbs that are useful for comparison tasks in nlp
+Instruction verbs that are useful for comparison tasks
 
 Compare:
-    - Compare and contrast the two given texts
+  - Compare and contrast the two given texts
 Contrast:
-    - Contrast the given passages to highlight their differences
+  - Contrast the given passages to highlight their differences
 Differentiate:
-    - Differentiate between the two given terms
+  - Differentiate between the two given terms
 Examine:
-    - Examine the similarities and differences between the two given texts
+  - Examine the similarities and differences between the two given texts
 Analyze:
-    - Analyze the two given texts and identify their similarities and differences
+  - Analyze the two given texts and identify their similarities and differences
 Critique:
-    - Critique the two given texts and compare their strengths and weaknesses
+  - Critique the two given texts and compare their strengths and weaknesses
 Evaluate:
-    - Evaluate the two given texts and determine which one is more effective
+  - Evaluate the two given texts and determine which one is more effective
 
 
 
@@ -308,30 +308,30 @@ But rise above, and hear the call.
 
 
 ### Questions-based prompts:
-    
-    What do you think about …
-    
-    What’s your take on …
-    
-    What’s the meaning of ...
+  
+  What do you think about …
+  
+  What’s your take on …
+  
+  What’s the meaning of ...
 
 ### Instruct-based prompts:
-    - Make a prediction about [keyword, topic, or subject…]
-    - Provide a comparison and contrast between [point1] and [point2]
-    - Provide a summary of [keyword, topic, or subject…]
-    - Write a eulogy for [keyword, topic, or subject…]
-    - Write a fable about [keyword, topic, or subject…]
-    - Write a paragraph on the history of [keyword, topic, or subject…]
-    - Write a personal reflection on [keyword, topic, or subject…]
-    - Write a persuasive essay on [keyword, topic, or subject…]
-    - Write a persuasive speech about [keyword, topic, or subject…]
-    - Write a recipe for [keyword, topic, or subject…]
-    - Write a response to the following [keyword, topic, or subject…]
-    - Write a review of [product, subject ... ]
-    - Write a short paragraph about [any input, keyword, topic, subject... ]
-    - Write a song about [keyword, topic, or subject…]
-    - Write a story that includes [keyword, topic, or subject…]
-    - Write an article on [keyword, topic, or subject…]
+  - Make a prediction about [keyword, topic, or subject…]
+  - Provide a comparison and contrast between [point1] and [point2]
+  - Provide a summary of [keyword, topic, or subject…]
+  - Write a eulogy for [keyword, topic, or subject…]
+  - Write a fable about [keyword, topic, or subject…]
+  - Write a paragraph on the history of [keyword, topic, or subject…]
+  - Write a personal reflection on [keyword, topic, or subject…]
+  - Write a persuasive essay on [keyword, topic, or subject…]
+  - Write a persuasive speech about [keyword, topic, or subject…]
+  - Write a recipe for [keyword, topic, or subject…]
+  - Write a response to the following [keyword, topic, or subject…]
+  - Write a review of [product, subject ... ]
+  - Write a short paragraph about [any input, keyword, topic, subject... ]
+  - Write a song about [keyword, topic, or subject…]
+  - Write a story that includes [keyword, topic, or subject…]
+  - Write an article on [keyword, topic, or subject…]
 
 ### Programming related tasks:
 
