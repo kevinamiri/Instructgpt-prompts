@@ -160,81 +160,79 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 Instruction verbs that are useful for classification tasks in nlp
 
 Classify:
-  - Classify the following as a physical or chemical property
+  - `Classify` the following as a physical or chemical property
 Identify: 
-  - Identify main idea of the given passage
+  - `Identify` main idea of the given passage
 Categorize:
-  - Categorize the following passage as either a myth or a fact
+  - `Categorize` the following passage as either a myth or a fact
 Assign:
-  - Assign each item to its corresponding category based on its characteristics
+  - `Assign each` item to its corresponding category based on its characteristics
 List:
-  - List the five main categories of the given data set.
+  - `List` the five main categories of the given data set.
 Group:
-  - Group the items based on their common characteristics
+  - `Group` the items based on their common characteristics
 Sort:
-  - Sort the data based on the date it was collected
+  - `Sort` the data based on the date it was collected
 Label:
-  - Label each data point with its corresponding category
+  - `Label` each data point with its corresponding category
 Divide:
-  - Divide the data into smaller subgroups based on their similarities
+  - `Divide` the data into smaller subgroups based on their similarities
 Group:
-  - Group the items based on their similarity in features
+  - `Group` the items based on their similarity in features
 Label:
-  - Label each group with a descriptive name.
+  - `Label` each group with a descriptive name.
 
 ## Generation
 
 Instruction verbs that are useful for generation tasks
 
 Generate:
-  - Generate a new text based on the given parameters
+  - `Generate` a new text based on the given parameters
 Create:
-  - Create a short catchy headline based on the following, aim to promote the product
+  - `Create` a short catchy headline based on the following, aim to promote the product
 Write:
-  - Write a story using the following keywords
+  - `Writ`e a story using the following keywords
 Formulate:
-  - Formulate a new sentence based on the given structure
+  - `Formulate` a new sentence based on the given structure
 Produce:
-  - Produce a new text that is similar in style to the given sample
+  - `Produce` a new text that is similar in style to the given sample
 Construct:
-  - Construct a new text that combines elements from multiple sources
+  - `Construct` a new text that combines elements from multiple sources
 Compose:
-  - Compose a new poem based on the given theme
+  - `Compose` a new poem based on the given theme
 Build:
-  - Build a new text by combining different elements in a creative way
+  - `Build` a new text by combining different elements in a creative way
 Devise:
-  - Devise a new narrative based on the given information
+  - `Devise` a new narrative based on the given information
 Invent:
-  - Invent a new story using the following elements.
+  - `Invent` a new story using the following elements.
   
 ## Transformation:
 
 Instruction verbs that are useful for transformation tasks
 
 Translate:
-  - Translate the following function into C#
-  - Translate the following into 1. English, 2. French, 3. Swedish
+  - `Translate` the following function into C#
+  - `Translate` the following into 1. English, 2. French, 3. Swedish
 Reword:
-  - Reword the following sentence to make it more concise
+  - `Reword` the following sentence to make it more concise
 Summarize:
-  - Summarize the main points of the given article
+  - `Summarize` the main points of the given article
 Paraphrase:
-  - Paraphrase the following sentence to convey the same meaning
+  - `Paraphrase` the following sentence to convey the same meaning
 Simplify:
-  - Simplify the following equation for easier understanding
+  - `Simplify` the following equation for easier understanding
 Revise:
-  - Revise the following paragraph to make it more clear and concise
-Illustrate:
-  - Illustrate the following concept with an example
+  - `Revise` the following paragraph to make it more clear and concise
 Outline:
-  - Outline the steps to solve the given problem
+  - `Outline` the steps to solve the given problem
 Calculate:
-  - Calculate the total cost of the following items
+  - `Calculate` the total cost of the following items
 Infer:
-  - Infer the meaning of the following word based on context
+  - `Infer` the meaning of the following word based on context
 Apply:
-  - Apply the following formula to calculate the result
-  - Apply given tone and voice to the passage below
+  - `Apply` the following formula to calculate the result
+  - `Apply` given tone and voice to the passage below
 
 
 ## Comparison:
@@ -242,20 +240,19 @@ Apply:
 Instruction verbs that are useful for comparison tasks
 
 Compare:
-  - Compare and contrast the two given texts
+  - `Compare` and contrast the two given texts
 Contrast:
-  - Contrast the given passages to highlight their differences
+  - `Contrast` the given passages to highlight their differences
 Differentiate:
-  - Differentiate between the two given terms
+  - `Differentiate` between the two given terms
 Examine:
-  - Examine the similarities and differences between the two given texts
+  - `Examine` the similarities and differences between the two given texts
 Analyze:
-  - Analyze the two given texts and identify their similarities and differences
+  - `Analyze` the two given texts and identify their similarities and differences
 Critique:
-  - Critique the two given texts and compare their strengths and weaknesses
+  - `Critique` the two given texts and compare their strengths and weaknesses
 Evaluate:
-  - Evaluate the two given texts and determine which one is more effective
-
+  - `Evaluate` the two given texts and determine which one is more effective
 
 
 ### Strcutute of common instruct prompts:
@@ -267,7 +264,6 @@ Evaluate:
   - `Create` + `a report article` + `based on following passage`
 
   - `Write` + `a summary` + `of the following passage`
-
 
 
 ### Example of using above structure:
@@ -336,15 +332,15 @@ But rise above, and hear the call.
 ### Programming related tasks:
 
 ```
-Can you write code to solve the following problem:  + `Input code or text`
-Write a script to automate the following process:  + `Input code or text`
-Can you write a program to solve the following problem:  + `Input code or text`
-Can you provide an algorithm for: + `Input code or text`
-What's the logic behind the following code: + `Input code or text`
-Can you optimize the following code: + `Input code or text`
-Write a function to: + `Input code or text`
-Can you explain the following code: + `Input code or text`
-Can you debug the following code: + `Input code or text`
+Can you write code to solve the following problem:
+Write a script to automate the following process:
+Can you write a program to solve the following problem:  
+Can you provide an algorithm based on the following problem:
+What's the logic behind the following code: 
+Can you optimize the following code: 
+Write a function to: 
+Can you explain the following code: 
+Can you debug the following code: 
 ```
 
 ### Evaluate a passage:
@@ -439,31 +435,31 @@ Write a story that ends with:
 ### Writing prompts:
 
 ```
-  Can you suggest a writing prompt for:
-  Generate a creative writing prompt for:
-  What's a good writing topic for:
-  Can you come up with a new idea for a writing prompt:
-  Write a short story prompt for:
-  What's a unique writing prompt for:
-  Can you create a writing prompt for a fictional character:
-  What's a writing prompt for a mystery story:
-  Can you suggest a writing prompt for a descriptive scene:
-  What's a writing prompt for a love story:
+Can you suggest a writing prompt for:
+Generate a creative writing prompt for:
+What's a good writing topic for:
+Can you come up with a new idea for a writing prompt:
+Write a short story prompt for:
+What's a unique writing prompt for:
+Can you create a writing prompt for a fictional character:
+What's a writing prompt for a mystery story:
+Can you suggest a writing prompt for a descriptive scene:
+What's a writing prompt for a love story:
 ```
 
 ### Proofreading and text editing:
 
 ```
-  Can you proofread and edit the following text:
-  Write a corrected version of the following text:
-  What are the grammatical errors in the following text:
-  Write a revised version of the following passage:
-  Can you provide suggestions for improving the following text:
-  What's the appropriate format for the following text:
-  Write a more concise version of the following text:
-  Can you suggest alternative phrasing for the following text:
-  What's the appropriate tone for the following text:
-  Write a polished version of the following text:
+Can you proofread and edit the following text:
+Write a corrected version of the following text:
+What are the grammatical errors in the following text:
+Write a revised version of the following passage:
+Can you provide suggestions for improving the following text:
+What's the appropriate format for the following text:
+Write a more concise version of the following text:
+Can you suggest alternative phrasing for the following text:
+What's the appropriate tone for the following text:
+Write a polished version of the following text:
 ```
 
 ### Analyze a passage:
@@ -494,12 +490,12 @@ What's the author's point of view in the following passage:
 ### Merge points or ideas:
 
 ```
-Can you combine the following points into a single statement:
-Can you create a coherent argument from the following points:
-Can you create a conclusion that encompasses the following points:
-Can you create a unified statement that incorporates the following ideas:
-Can you find a common thread among the following points:
-Can you provide a unified perspective on the following points:
+Combine the following points into a single statement:
+Create a coherent argument from the following points:
+Create a conclusion that encompasses the following points:
+Create a unified statement that incorporates the following ideas:
+Find a common thread among the following points:
+Provide a unified perspective on the following points:
 What's a common theme among the following points:
 What's the common theme among the following points:
 What's the connection between the following points:
@@ -533,9 +529,9 @@ Write the tone of the following text:
 ### Create compare and contrast:
 
 ```
-Can you compare and contrast the following two passages:
-Can you provide a side-by-side comparison of the following two texts:
-Can you provide a summary and comparison of the following two texts:
+Compare and contrast the following two passages:
+Provide a side-by-side comparison of the following two texts:
+Provide a summary and comparison of the following two texts:
 What are the similarities and differences between the following two passages:
 What's the relationship between the following two passages:
 Write a comparison and contrast between the following texts:
@@ -618,53 +614,49 @@ Write an email subject line to promote [product/service]
 ### Reading comprehension:
 
 ```
-Can you explain the following passage:
-What does the following text mean:
-Write a short summary of the following passage:
-What's the main idea of the following text:
-Can you provide a brief explanation of the following text:
-Write a response to the questions based on the following text:
-What are the key points made in the following passage:
-Can you provide a general understanding of the following text:
-Write a reflection on the information presented in the following passage:
-What's the author's purpose in writing the following text:
-Can you provide a summary of the following passage:
-What's the tone of the following text:
-Can you rephrase the following passage:
-Write a response to the following text based on your understanding:
-What's the author's main argument in the following text:
-Can you provide a one-sentence summary of the following text:
-Write a paragraph that explains the most important information in the following text:
-What are the themes explored in the following text:
-Can you provide a list of key vocabulary words from the following text:
-Write a short story that incorporates the information from the following text:
-What's the intended audience for the following text:
-What's the underlying message of the following text:
-Can you provide a summary and analysis of the following passage:
+Explain the central idea of the following text:
+Explain the following passage:
+Provide a brief explanation of the following text:
+Provide a general understanding of the following text:
+Provide a list of key vocabulary words from the following text:
+Provide a one-sentence summary of the following text:
+Provide a summary and analysis of the following passage:
+Provide a summary of the following passage:
+Provide an overview of the following passage:
+Rephrase the following passage in your own words:
+Identify key points in the following passage:
+Identify major themes discussed in the following text:
+Identify the author's main argument in the following text:
+Identify the author's perspective in the following passage:
+Identify the intended audience for the following text:
+Identify the main idea of the following text:
+Identify the tone of the following text:
+Identify the underlying message of the following text:
+Identify the most important information in the following passage:
 Write a brief interpretation of the following text:
-What's the theme of the following passage:
-Can you explain the central idea of the following text:
-Write a response to the questions based on the information presented in the following passage:
-What are the major themes discussed in the following text:
-Can you provide an overview of the following passage:
+Write a paragraph that explains the most important information in the following text:
 Write a personal opinion on the information presented in the following text:
-What's the author's perspective in the following passage:
+Write a reflection on the information presented in the following passage:
+Write a response to the following text based on your understanding:
+Write a response to the questions based on the information presented in the following passage:
+Write a short story that incorporates the information from the following text:
+Write a short summary of the following passage:
 ```
 
 ### Simplify and provide explanations:
 
 ```
-Can you simplify the following:
-Write a clear explanation of:
-What's a simple explanation for:
-Can you explain the following in simple terms:
-Write a step-by-step explanation of:
-What's an easy way to understand:
 Can you break down the following into simpler parts:
-Write a layman's explanation of:
+Explain the following in simple terms:
+Explain the following to someone who has no prior knowledge of:
+Simplify the following:
 What's a beginner-friendly explanation of:
-Can you explain the following to someone who has no prior knowledge of:
+What's a simple explanation for:
+What's an easy way to understand:
+Write a clear explanation of:
 Write a detailed explanation of:
+Write a layman's explanation of:
+Write a step-by-step explanation of:
 ```
 
 ### Make a summary:
@@ -682,4 +674,15 @@ What's the key takeaway from:
 Can you provide a condensed summary of:
 ```
 
+
+
+## Style
+will be added soon
+
+
+
+
+
+
+# contribute
 Feel free to contribute by adding more magic words and prompts or by improving the existing ones. I’ll update the list as soon as I can. Thanks!
