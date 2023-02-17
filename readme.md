@@ -1,12 +1,15 @@
 # A collection of ChatGPT and GPT-3.5 prompts
 
-This project is a collection of prompts for ChatGPT and GPT-3 models, designed for various purposes such as write, analyze and comprehend using ChatGPT. 
+This project consists of prompts for ChatGPT and GPT-3.5 models that are designed to help with writing, analysis, and comprehension tasks. There are many different prompts available for you to use, and you can use them to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. With these prompts, you will guide the models to solve any language-related task by using the right instructional verbs.
 
-With a wide range of curated prompts, you can use this tool to generate content for your projects, debug your code, find answers to your problems or least learn more about the capabilities of these models.
+
+![InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
+
+![ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
 
 ## How to use:
 
-ChatGPT is a language model that uses GPT-3 instruction architecture to understand user instructions and manipulate language based on them.
+Once you have chosen the prompt of your choice, you can use the following syntax to provide instructions to the model.
 
 ```markdown
 (Instruct) + (Input) => (Output)
@@ -43,7 +46,7 @@ Best regards,
 [Your Name]
 ```
 
-## Instruct verbs:
+## INSTRUCTIONAL VERBS:
 
 Instruct verbs are the first word in the prompt. They are used to instruct the model to do something. They are the most important part of the prompt. We may argue that they act as magic words that make a successful prompt, it helps to make the machine understand and follow your instructions.
 
@@ -159,78 +162,57 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 
 Instruction verbs that are useful for classification tasks in nlp
 
-Classify:
   - `Classify` the following as a physical or chemical property
-Identify: 
   - `Identify` main idea of the given passage
-Categorize:
   - `Categorize` the following passage as either a myth or a fact
-Assign:
   - `Assign each` item to its corresponding category based on its characteristics
-List:
   - `List` the five main categories of the given data set.
-Group:
   - `Group` the items based on their common characteristics
-Sort:
   - `Sort` the data based on the date it was collected
-Label:
   - `Label` each data point with its corresponding category
-Divide:
   - `Divide` the data into smaller subgroups based on their similarities
-Group:
   - `Group` the items based on their similarity in features
-Label:
   - `Label` each group with a descriptive name.
 
 ## Generation
 
 Instruction verbs that are useful for generation tasks
 
-Generate:
   - `Generate` a new text based on the given parameters
-Create:
   - `Create` a short catchy headline based on the following, aim to promote the product
-Write:
   - `Writ`e a story using the following keywords
-Formulate:
   - `Formulate` a new sentence based on the given structure
-Produce:
   - `Produce` a new text that is similar in style to the given sample
-Construct:
   - `Construct` a new text that combines elements from multiple sources
-Compose:
   - `Compose` a new poem based on the given theme
-Build:
   - `Build` a new text by combining different elements in a creative way
-Devise:
   - `Devise` a new narrative based on the given information
-Invent:
   - `Invent` a new story using the following elements.
   
 ## Transformation:
 
 Instruction verbs that are useful for transformation tasks
 
-Translate:
+- Translate:
   - `Translate` the following function into C#
   - `Translate` the following into 1. English, 2. French, 3. Swedish
-Reword:
+- Reword:
   - `Reword` the following sentence to make it more concise
-Summarize:
+- Summarize:
   - `Summarize` the main points of the given article
-Paraphrase:
+- Paraphrase:
   - `Paraphrase` the following sentence to convey the same meaning
-Simplify:
+- Simplify:
   - `Simplify` the following equation for easier understanding
-Revise:
+- Revise:
   - `Revise` the following paragraph to make it more clear and concise
-Outline:
+- Outline:
   - `Outline` the steps to solve the given problem
-Calculate:
+- Calculate:
   - `Calculate` the total cost of the following items
-Infer:
+- Infer:
   - `Infer` the meaning of the following word based on context
-Apply:
+- Apply:
   - `Apply` the following formula to calculate the result
   - `Apply` given tone and voice to the passage below
 
@@ -239,9 +221,9 @@ Apply:
 
 Instruction verbs that are useful for comparison tasks
 
-Compare:
+- Compare:
   - `Compare` and contrast the two given texts
-Contrast:
+- Contrast:
   - `Contrast` the given passages to highlight their differences
 Differentiate:
   - `Differentiate` between the two given terms
