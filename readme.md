@@ -2,16 +2,18 @@
 
 This project consists of prompts for ChatGPT and GPT-3.5 models that are designed to help with writing, analysis, and comprehension tasks. There are many different prompts available for you to use, and you can use them to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. With these prompts, you will guide the models to solve any language-related task by using the right instructional verbs.
 
-
 ![InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
 
 ![ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
 
+## Why to use:
+
+This is a easy and simple prompting technique that can be used to instruct the model to do almost anything. It is a simple structure that can be used to give instructions to the model. It is a flexible way to give instructions and solve any language-related task.
+
+
 ## How to use:
 
-To give instructions to language models, you can use a simple structure. This structure is useful for most language tasks, such as summarizing, classifying, and analyzing text. However, even if you don't follow this structure, models like InstrcutGPT and ChatGPT will still understand your input and provide the desired results. You can use the provided prompts as they are, but you may need to modify them to fit your specific needs.
-
-## INSTRUCTIONAL VERBS:
+### Useful verbs:
 
 Instruct verbs are the first word in the prompt. They are used to instruct the model to do something. They are the most important part of the prompt. We may argue that they act as magic words that make a successful prompt, it helps to make the machine understand and follow your instructions. Each of these verbs has a specific meaning that can help the model understand what kind of answer is expected. For example, if you ask the model to explain something, it will provide a detailed explanation. On the other hand, if you ask the model to summarize something, it will provide a brief overview.
 
@@ -119,11 +121,10 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 
 
 
-## Common use cases:
+### Common use cases:
 
 
-
-### Classification
+#### Classification
 
 Instruction verbs that are useful for classification tasks in nlp
 
@@ -139,7 +140,7 @@ Instruction verbs that are useful for classification tasks in nlp
   - `Group` the items based on their similarity in features
   - `Label` each group with a descriptive name.
 
-### Generation
+#### Generation
 
 Instruction verbs that are useful for generation tasks
 
@@ -154,7 +155,7 @@ Instruction verbs that are useful for generation tasks
   - `Devise` a new narrative based on the given information
   - `Invent` a new story using the following elements.
   
-### Transformation:
+#### Transformation:
 
 Instruction verbs that are useful for transformation tasks
 
@@ -181,7 +182,7 @@ Instruction verbs that are useful for transformation tasks
   - `Apply` given tone and voice to the passage below
 
 
-### Comparison:
+#### Comparison:
 
 Instruction verbs that are useful for comparison tasks
 
@@ -214,7 +215,7 @@ A basic and useful structure of an instruct prompts can be look like this:
   - `Write a summary` + `of the following passage`
 
 
-### Example of using above structure:
+#### Example of using above structure:
 
 **Input:**
 
@@ -248,53 +249,48 @@ For in its power, we must not fall,
 But rise above, and hear the call.
 ```
 
-## More instruct commands:
+### More instruct commands:
 
 
-### Questions-based prompts:
+#### Questions-based prompts:
   
   - What do you think about ...
   - What’s your take on ...
   - What’s the meaning of ...
   - Any other question
 
-### Instruct-based prompts:
+#### Instruct-based prompts:
 
-  - Make a prediction about [keyword, topic, or subject…]
-  - Provide a comparison and contrast between [point1] and [point2]
-  - Provide a summary of [keyword, topic, or subject…]
-  - Write a eulogy for [keyword, topic, or subject…]
-  - Write a fable about [keyword, topic, or subject…]
-  - Write a paragraph on the history of [keyword, topic, or subject…]
-  - Write a personal reflection on [keyword, topic, or subject…]
-  - Write a persuasive essay on [keyword, topic, or subject…]
-  - Write a recipe for [keyword, topic, or subject…]
-  - Write a response to the following [keyword, topic, or subject…]
-  - Write a review of [product, subject ... ]
-  - Write a short paragraph about [any input, keyword, topic, subject... ]
-  - Write a song about [keyword, topic, or subject…]
-  - Write a story that includes [keyword, topic, or subject…]
-  - Write an article on [keyword, topic, or subject…]
+  - Make a prediction about [keyword, topic, subjects, point, concepts, etc…]
+  - Provide a comparison and contrast between following points:
+  - Generate the summary of following passage:
+  - Write a personal reflection on [keyword, topic, or subject…] bin a [format, style, etc…]
+  - Write a persuasive essay on [keyword, topic, subjects, point, concepts, etc…] in favor of [keyword, topic, subjects, point, concepts, etc…]
+  - Write a response to the following [keyword, topic, or subject…] in the form of a letter to the editor
+  - Write a review of [product, subject ... ] based on the following criteria:
+  - Write a short paragraph about [any input, keyword, topic, subject... ] in your own words
+  - Write a song about [keyword, topic, or subject…] in the style of [artist, genre, etc…]
+  - Write a story that includes [keyword, topic, or subject…] in the following setting:
+  - Write an article on [keyword, topic, or subject…] that includes the following points:
 
-### Programming related tasks:
+#### Programming related tasks:
 
 ```
 Can you write code to solve the following problem:
-Write a script to automate the following process:
-Can you write a program to solve the following problem:  
-Can you provide an algorithm based on the following problem:
+Write a script to automate the following process:  
+Provide an algorithm based on the following problem:
 What's the logic behind the following code: 
-Can you optimize the following code: 
-Write a function to: 
-Can you explain the following code: 
-Can you debug the following code: 
+Optimize the following function to run faster, use less memory, or be more readable: 
+Write a function based on the following requirements:
+Explain the following code to a non-technical person:
+Debug the following code to fix the error, and explain the reason for the error:
 ```
 
-### Evaluate a passage:
+#### Evaluate a passage:
 
 ```
 What are your thoughts on the following passage:
-Can you provide an analysis of the following text:
+Provide an analysis of the following text:
 Write a response to the following passage:
 What do you agree or disagree with in the following passage:
 Write a critique of the following text:
@@ -302,10 +298,11 @@ What's the central idea of the following passage:
 Can you summarize the main points made in the following passage:
 Write a reflection on the following text:
 What's the tone of the following passage:
-Can you provide a summary and evaluation of the following passage:
+Provide a summary and evaluation of the following passage:
+Generate reading comprehension questions based on the following passage:
 ```
 
-### Rephrase a passage:
+#### Rephrase a passage:
 
 ```
 Can you reword the following text:
@@ -316,11 +313,11 @@ Can you translate the following passage into simpler language:
 What's an alternative way to express the following text:
 Can you condense the following passage into a few sentences:
 Write a brief retelling of the following text:
-Can you rewrite the following passage in a more concise way:
+Rewrite the following passage in a more concise way:
 What's a different way to phrase the following text:
 ```
 
-### Extract data from a passage:
+#### Extract data from a passage:
 
 ```
 Extract the [concept/topic] from the given passage:
@@ -329,7 +326,7 @@ What are the key points made in the following text:
 Make a summary of following of given text that deals with the [concept/topic]:
 ```
 
-### Writing:
+#### Writing:
 
 ```
 Come up with a creative solution for the following:
@@ -346,7 +343,7 @@ Write an interesting twist ending for a story about:
 
 ```
 
-### Writing prompts:
+#### Writing prompts:
 
 ```
 Can you suggest a writing prompt for:
@@ -361,7 +358,7 @@ Can you suggest a writing prompt for a descriptive scene:
 What's a writing prompt for a love story:
 ```
 
-### Proofreading and text editing:
+#### Proofreading and text editing:
 
 ```
 Proofread and edit the following text:
@@ -376,7 +373,7 @@ What's the appropriate tone for the following text:
 Write a polished version of the following text:
 ```
 
-### Analyze a passage:
+#### Analyze a passage:
 
 ```
 What are the key themes in the following passage:
@@ -387,7 +384,6 @@ Can you identify the literary devices used in the following text:
 What's the intended audience for the following passage:
 Write a critical analysis of the following passage:
 What's the purpose of the following text:
-Explain the symbolism in the following passage:
 What's the central argument of the following text:
 What's the message of the following passage:
 Write a critical analysis of the following text:
@@ -401,7 +397,7 @@ Write a review of the following text:
 What's the author's point of view in the following passage:
 ```
 
-### Merge points or ideas:
+#### Merge points or ideas:
 
 ```
 Combine the following points into a single statement:
@@ -411,26 +407,23 @@ Create a unified statement that incorporates the following ideas:
 Find a common thread among the following points:
 Provide a unified perspective on the following points:
 What's a common theme among the following points:
-What's the common theme among the following points:
-What's the connection between the following points:
+Provide a statement synthesising the relationship between the following points:
 What's the main idea that ties together the following points:
 What's the overarching idea that encompasses the following points:
 What's the relationship between the following points:
-Write a paragraph that ties together the following concepts:
-Write a sentence that brings together the following concepts:
-Write a sentence that summarizes the following ideas:
-Write a short summary that unifies the following ideas:
-Write a summary that incorporates the following ideas:
-Write a summary that integrates the following ideas:
 Write a synthesis of the following information:
+Write a paragraph that ties together the following concepts:
+Write a passage that summarizes the following ideas:
+Write a short summary that unifies the following ideas:
+Write a summary that integrates the following ideas:
 ```
 
-### Classify a passage:
+#### Classify a passage:
 
 ```
-Can you categorize the following passage:
-Can you classify the following text based on its structure:
-Can you identify the main theme of the following passage:
+Categorize the following passage into it's genre:
+Classify the following text based on its structure:
+Identify the main theme of the following passage:
 What genre does the following text belong to:
 What type of text is the following:
 What's the intended audience for the following passage:
@@ -440,7 +433,7 @@ Write the literary style of the following passage:
 Write the tone of the following text:
 ```
 
-### Create compare and contrast:
+#### Create compare and contrast:
 
 ```
 Compare and contrast the following two passages:
@@ -453,7 +446,7 @@ Write a contrast of the following two pieces of text:
 Write a synthesis of the similarities and differences in the following two passages:
 ```
 
-### Translate a passage:
+#### Translate a passage:
 
 ```
 Translate the following text into:
@@ -468,7 +461,7 @@ Can you provide a cultural translation of the following text into:
 Write a fluent translation of the following passage into:
 ```
 
-### Generate content:
+#### Generate content:
 
 ```
 Write a story that starts with:
@@ -488,7 +481,7 @@ Can you write a monologue for a character who:
 Write a story that explores the idea of:
 ```
 
-### Categorize text:
+#### Categorize text:
 
 ```
 What category does the following text belong to:
@@ -503,7 +496,7 @@ What category would you place the following text under:
 Can you assign a category to the following text based on its tone:
 ```
 
-### Copywriting and Marketing:
+#### Copywriting and Marketing:
 
 ```
 Can you come up with a brand slogan for [company name]/[product name]/[service name]/ ...
@@ -525,7 +518,7 @@ Write a social media post to promote [product/service]
 Write an email subject line to promote [product/service]
 ```
 
-### Reading comprehension:
+#### Reading comprehension:
 
 ```
 Explain the central idea of the following text:
@@ -557,7 +550,7 @@ Write a short story that incorporates the information from the following text:
 Write a short summary of the following passage:
 ```
 
-### Simplify and provide explanations:
+#### Simplify and provide explanations:
 
 ```
 Can you break down the following into simpler parts:
@@ -573,7 +566,7 @@ Write a layman's explanation of:
 Write a step-by-step explanation of:
 ```
 
-### Make a summary:
+#### Make a summary:
 
 ```
 Can you summarize the following:
@@ -590,13 +583,10 @@ Can you provide a condensed summary of:
 
 
 
-## Style
+### Style
 will be added soon
 
 
 
-## Advanced prompting techniques
+### Advanced prompting techniques
 will be added soon
-
-# contribute
-Feel free to contribute by adding more magic words and prompts or by improving the existing ones. I’ll update the list as soon as I can. Thanks!
