@@ -9,47 +9,11 @@ This project consists of prompts for ChatGPT and GPT-3.5 models that are designe
 
 ## How to use:
 
-Once you have chosen the prompt of your choice, you can use the following syntax to provide instructions to the model.
-
-```markdown
-(Instruct) + (Input) => (Output)
-```
-
-1. Copy the Instruct commands or prompts
-2. Add the text to the end
-3. Push Send / Submit button followed in a playground.
-
-### Example:
-
-### Prompt:
-
-```markdown
-Write a response to the following email:
-
-Hello,
-I am writing to you to request a refund for the purchase I made on your website. I ordered a pair of shoes, but they were the wrong size. I have attached a photo of the shoes I received. I would like to return them and receive a refund for the purchase. Please let me know if you have any questions.
-Thank you,
-```
-
-### Response:
-
-```
-Dear [Name],
-
-Thank you for your email regarding the purchase of the shoes. We are sorry to hear that the shoes were the wrong size. Please provide us with the details of your original order so we can process your refund. Please also include a copy of your invoice or proof of purchase, as well as the photo of the shoes.
-
-Once we receive all of the necessary information, we will be able to process your return and refund as quickly as possible. If you have any other questions, please don't hesitate to reach out.
-
-Thank you for your patience and understanding.
-
-Best regards,
-[Your Name]
-```
+To give instructions to language models, you can use a simple structure. This structure is useful for most language tasks, such as summarizing, classifying, and analyzing text. However, even if you don't follow this structure, models like InstrcutGPT and ChatGPT will still understand your input and provide the desired results. You can use the provided prompts as they are, but you may need to modify them to fit your specific needs.
 
 ## INSTRUCTIONAL VERBS:
 
-Instruct verbs are the first word in the prompt. They are used to instruct the model to do something. They are the most important part of the prompt. We may argue that they act as magic words that make a successful prompt, it helps to make the machine understand and follow your instructions.
-
+Instruct verbs are the first word in the prompt. They are used to instruct the model to do something. They are the most important part of the prompt. We may argue that they act as magic words that make a successful prompt, it helps to make the machine understand and follow your instructions. Each of these verbs has a specific meaning that can help the model understand what kind of answer is expected. For example, if you ask the model to explain something, it will provide a detailed explanation. On the other hand, if you ask the model to summarize something, it will provide a brief overview.
 
 - <details><summary>Useful words to give directions to your input texts: (point to a location of your input text)</summary><p>
   - Given text
@@ -155,10 +119,11 @@ Instruct verbs are the first word in the prompt. They are used to instruct the m
 
 
 
-## Instruct verbs and their use cases:
+## Common use cases:
 
 
-## Classification
+
+### Classification
 
 Instruction verbs that are useful for classification tasks in nlp
 
@@ -174,13 +139,13 @@ Instruction verbs that are useful for classification tasks in nlp
   - `Group` the items based on their similarity in features
   - `Label` each group with a descriptive name.
 
-## Generation
+### Generation
 
 Instruction verbs that are useful for generation tasks
 
   - `Generate` a new text based on the given parameters
   - `Create` a short catchy headline based on the following, aim to promote the product
-  - `Writ`e a story using the following keywords
+  - `Write` a story using the following keywords
   - `Formulate` a new sentence based on the given structure
   - `Produce` a new text that is similar in style to the given sample
   - `Construct` a new text that combines elements from multiple sources
@@ -189,19 +154,18 @@ Instruction verbs that are useful for generation tasks
   - `Devise` a new narrative based on the given information
   - `Invent` a new story using the following elements.
   
-## Transformation:
+### Transformation:
 
 Instruction verbs that are useful for transformation tasks
 
 - Translate:
   - `Translate` the following function into C#
   - `Translate` the following into 1. English, 2. French, 3. Swedish
-- Reword:
-  - `Reword` the following sentence to make it more concise
 - Summarize:
   - `Summarize` the main points of the given article
 - Paraphrase:
   - `Paraphrase` the following sentence to convey the same meaning
+  - `Reword` the following sentence to make it more concise
 - Simplify:
   - `Simplify` the following equation for easier understanding
 - Revise:
@@ -211,13 +175,13 @@ Instruction verbs that are useful for transformation tasks
 - Calculate:
   - `Calculate` the total cost of the following items
 - Infer:
-  - `Infer` the meaning of the following word based on context
+  - `Infer` the meaning of the [jargon, vage phrase] based on the following context:
 - Apply:
   - `Apply` the following formula to calculate the result
   - `Apply` given tone and voice to the passage below
 
 
-## Comparison:
+### Comparison:
 
 Instruction verbs that are useful for comparison tasks
 
@@ -225,27 +189,29 @@ Instruction verbs that are useful for comparison tasks
   - `Compare` and contrast the two given texts
 - Contrast:
   - `Contrast` the given passages to highlight their differences
-Differentiate:
+- Differentiate:
   - `Differentiate` between the two given terms
-Examine:
+- Examine:
   - `Examine` the similarities and differences between the two given texts
-Analyze:
-  - `Analyze` the two given texts and identify their similarities and differences
-Critique:
-  - `Critique` the two given texts and compare their strengths and weaknesses
-Evaluate:
-  - `Evaluate` the two given texts and determine which one is more effective
+- Analyze:
+  - `Analyze` the two given pieces and identify their similarities and differences
+- Critique:
+  - `Critique` the two given passages and compare their strengths and weaknesses
+- Evaluate:
+  - `Evaluate` the two given passages and determine which one is more effective
 
 
 ### Strcutute of common instruct prompts:
 
-`Instruct` + `Direction`
+A basic and useful structure of an instruct prompts can be look like this:
 
-  - `Generate` + `a poem` + `based on following passage:`
+`Instruction` + `Direction to the next words`
 
-  - `Create` + `a report article` + `based on following passage`
+  - `Generate a poem` + `based on following passage:`
 
-  - `Write` + `a summary` + `of the following passage`
+  - `Create a report article` + `based on following passage`
+
+  - `Write a summary` + `of the following passage`
 
 
 ### Example of using above structure:
@@ -287,13 +253,13 @@ But rise above, and hear the call.
 
 ### Questions-based prompts:
   
-  What do you think about …
-  
-  What’s your take on …
-  
-  What’s the meaning of ...
+  - What do you think about ...
+  - What’s your take on ...
+  - What’s the meaning of ...
+  - Any other question
 
 ### Instruct-based prompts:
+
   - Make a prediction about [keyword, topic, or subject…]
   - Provide a comparison and contrast between [point1] and [point2]
   - Provide a summary of [keyword, topic, or subject…]
@@ -302,7 +268,6 @@ But rise above, and hear the call.
   - Write a paragraph on the history of [keyword, topic, or subject…]
   - Write a personal reflection on [keyword, topic, or subject…]
   - Write a persuasive essay on [keyword, topic, or subject…]
-  - Write a persuasive speech about [keyword, topic, or subject…]
   - Write a recipe for [keyword, topic, or subject…]
   - Write a response to the following [keyword, topic, or subject…]
   - Write a review of [product, subject ... ]
@@ -358,60 +323,27 @@ What's a different way to phrase the following text:
 ### Extract data from a passage:
 
 ```
-Can you extract the following information from the text:
-What are the key facts mentioned in the following passage:
-Write a list of the details found in the following text:
-Can you pick out the most important information in the following passage:
+Extract the [concept/topic] from the given passage:
+Pick out the [concept/topic] in the following passage:
 What are the key points made in the following text:
-Write a summary of the data presented in the following passage:
-Can you provide a quick overview of the information contained in the following text:
-What are the key statistics mentioned in the following passage
+Make a summary of following of given text that deals with the [concept/topic]:
 ```
 
 ### Writing:
 
 ```
-Write a story that starts with:
-Can you come up with a character description for:
-Write a poem about:
-Create a short play about:
-What's a creative way to describe:
-Write a love letter to:
-Can you create a dialogue between:
-What's an interesting twist ending for a story about:
-Write a fairy tale about:
-Can you come up with a creative solution for:
-What's an imaginative way to describe:
-Write a science fiction story about:
-Can you create a story that includes:
-What's an innovative way to solve:
-Write a mystery story about:
-Create an infographic for:
-Write a biographical sketch of:
-What's the background of:
-Provide a list of the pros and cons of:
-What's the future outlook for:
-Write a myth about:
-Can you create a flowchart for:
-What's the significance of:
-Write a short story that includes:
-What's the root cause of:
-Write a news article on:
-Can you provide an explanation for:
-Write a story with a twist ending about:
-What's the importance of:
-Write a persuasive letter to:
-Write a scene about:
-Can you come up with a plot for a story about:
-Write a story that takes place in:
-Can you describe a character who:
-Write a story that features:
-Can you come up with a twist ending for a story about:
-Write a story that begins with:
-Can you describe a setting that:
-Write a story that revolves around:
-Can you imagine a world where:
-Write a story that ends with:
+Come up with a creative solution for the following:
+Create a dialogue between two characters that includes:
+Describe a setting that includes:
+Imagine a world where the following is true:
+Provide an explanation for the following:
+Make a list of pros and cons based on the following:
+Develop a scene about the following:
+Compose a short science fiction story that includes:
+Generate a story that revolves around [topic]:
+Find an imaginative way to describe:
+Write an interesting twist ending for a story about:
+
 ```
 
 ### Writing prompts:
@@ -432,14 +364,14 @@ What's a writing prompt for a love story:
 ### Proofreading and text editing:
 
 ```
-Can you proofread and edit the following text:
+Proofread and edit the following text:
 Write a corrected version of the following text:
 What are the grammatical errors in the following text:
 Write a revised version of the following passage:
-Can you provide suggestions for improving the following text:
+Provide suggestions for improving the following text:
 What's the appropriate format for the following text:
 Write a more concise version of the following text:
-Can you suggest alternative phrasing for the following text:
+Suggest alternative phrasing for the following text:
 What's the appropriate tone for the following text:
 Write a polished version of the following text:
 ```
@@ -448,23 +380,23 @@ Write a polished version of the following text:
 
 ```
 What are the key themes in the following passage:
-Can you provide a detailed analysis of the following text:
+Provide a detailed analysis of the following text:
 Write a summary and interpretation of the following passage:
 What's the structure of the following passage:
 Can you identify the literary devices used in the following text:
 What's the intended audience for the following passage:
 Write a critical analysis of the following passage:
 What's the purpose of the following text:
-Can you explain the symbolism in the following passage:
+Explain the symbolism in the following passage:
 What's the central argument of the following text:
 What's the message of the following passage:
 Write a critical analysis of the following text:
 What are the key elements of the following passage:
-Can you provide an interpretation of the following text:
+Provide an interpretation of the following text:
 What are the strengths and weaknesses of the following passage:
 Write a commentary on the following text:
 What's the purpose of the following passage:
-Can you provide an in-depth analysis of the following passage:
+Provide an in-depth analysis of the following passage:
 Write a review of the following text:
 What's the author's point of view in the following passage:
 ```
@@ -663,8 +595,8 @@ will be added soon
 
 
 
-
-
+## Advanced prompting techniques
+will be added soon
 
 # contribute
 Feel free to contribute by adding more magic words and prompts or by improving the existing ones. I’ll update the list as soon as I can. Thanks!
