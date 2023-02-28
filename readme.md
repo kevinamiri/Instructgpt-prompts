@@ -252,60 +252,25 @@ But rise above, and hear the call.
 ### More instruct commands:
 
 
-#### Questions-based prompts:
-  
-  - What do you think about ...
-  - What’s your take on ...
-  - What’s the meaning of ...
-  - Any other question
-
-#### Instruct-based prompts:
-
-  - Make a prediction about [keyword, topic, subjects, point, concepts, etc…]
-  - Provide a comparison and contrast between following points:
-  - Generate the summary of following passage:
-  - Write a personal reflection on [keyword, topic, or subject…] bin a [format, style, etc…]
-  - Write a persuasive essay on [keyword, topic, subjects, point, concepts, etc…] in favor of [keyword, topic, subjects, point, concepts, etc…]
-  - Write a response to the following [keyword, topic, or subject…] in the form of a letter to the editor
-  - Write a review of [product, subject ... ] based on the following criteria:
-  - Write a short paragraph about [any input, keyword, topic, subject... ] in your own words
-  - Write a song about [keyword, topic, or subject…] in the style of [artist, genre, etc…]
-  - Write a story that includes [keyword, topic, or subject…] in the following setting:
-  - Write an article on [keyword, topic, or subject…] that includes the following points:
 
 #### Programming related tasks:
 
 ```
-Can you write code to solve the following problem:
+Write a function to solve the following problem:
 Write a script to automate the following process:  
 Provide an algorithm based on the following problem:
-What's the logic behind the following code: 
+Provide the logic behind the following code: 
 Optimize the following function to run faster, use less memory, or be more readable: 
 Write a function based on the following requirements:
 Explain the following code to a non-technical person:
 Debug the following code to fix the error, and explain the reason for the error:
 ```
 
-#### Evaluate a passage:
-
-```
-What are your thoughts on the following passage:
-Provide an analysis of the following text:
-Write a response to the following passage:
-What do you agree or disagree with in the following passage:
-Write a critique of the following text:
-What's the central idea of the following passage:
-Can you summarize the main points made in the following passage:
-Write a reflection on the following text:
-What's the tone of the following passage:
-Provide a summary and evaluation of the following passage:
-Generate reading comprehension questions based on the following passage:
-```
 
 #### Rephrase a passage:
 
 ```
-Can you reword the following text:
+Reword the following text:
 Rewrite the following passage in your own words:
 Paraphrase the following text:
 Write a summarized version of the following passage:
@@ -317,6 +282,15 @@ Rewrite the following passage in a more concise way:
 What's a different way to phrase the following text:
 ```
 
+
+#### Translate a passage:
+
+```
+Translate the following text into: 1. English, 2. French, 3. Swedish
+Translate the following into: 1. Colloquial, 2. slang, 3. idiomatic English
+Identify which of the passages below is the closest translation of the original text.
+```
+
 #### Extract data from a passage:
 
 ```
@@ -324,6 +298,89 @@ Extract the [concept/topic] from the given passage:
 Pick out the [concept/topic] in the following passage:
 What are the key points made in the following text:
 Make a summary of following of given text that deals with the [concept/topic]:
+```
+
+
+#### Classify a passage:
+
+```
+Categorize the following passage into it's genre:
+Classify the following text based on its structure:
+Identify the main theme of the following passage:
+What genre does the following text belong to:
+What type of text is the following:
+What's the intended audience for the following passage:
+What's the purpose of the following text:
+Write the form of the following text (e.g. poem, essay, etc.):
+Write the literary style of the following passage:
+Write the tone of the following text:
+```
+
+
+##### Categorize text:
+
+```
+What category does the following text belong to:
+Can you classify the following text as:
+What genre does the following text fit into:
+Write a label for the following text:
+What type of text is the following:
+Can you categorize the following text based on its content:
+What subject does the following text cover:
+Write a tag for the following text:
+What category would you place the following text under:
+Can you assign a category to the following text based on its tone:
+```
+
+#### Create compare and contrast:
+
+```
+Compare and contrast the following two passages:
+Provide a side-by-side comparison of the following two texts:
+Provide a summary and comparison of the following two texts:
+What are the similarities and differences between the following two passages:
+What's the relationship between the following two passages:
+Write a comparison and contrast between the following texts:
+Write a contrast of the following two pieces of text:
+Write a synthesis of the similarities and differences in the following two passages:
+```
+
+
+#### Merge points or ideas:
+
+```
+Combine the following points into a single statement:
+Create a coherent argument from the following points:
+Create a conclusion that encompasses the following points:
+Create a unified statement that incorporates the following ideas:
+Find a common thread among the following points:
+Provide a unified perspective on the following points:
+What's a common theme among the following points:
+Provide a statement synthesising the relationship between the following points:
+What's the main idea that ties together the following points:
+What's the overarching idea that encompasses the following points:
+What's the relationship between the following points:
+Write a synthesis of the following information:
+Write a paragraph that ties together the following concepts:
+Write a passage that summarizes the following ideas:
+Write a short summary that unifies the following ideas:
+Write a summary that integrates the following ideas:
+```
+
+#### Simplify and provide explanations:
+
+```
+Can you break down the following into simpler parts:
+Explain the following in simple terms:
+Explain the following to someone who has no prior knowledge of:
+Simplify the following:
+What's a beginner-friendly explanation of:
+What's a simple explanation for:
+What's an easy way to understand:
+Write a clear explanation of:
+Write a detailed explanation of:
+Write a layman's explanation of:
+Write a step-by-step explanation of:
 ```
 
 #### Writing:
@@ -343,7 +400,8 @@ Write an interesting twist ending for a story about:
 
 ```
 
-#### Writing prompts:
+
+##### Writing prompts:
 
 ```
 Can you suggest a writing prompt for:
@@ -373,93 +431,70 @@ What's the appropriate tone for the following text:
 Write a polished version of the following text:
 ```
 
-#### Analyze a passage:
+#### Reading comprehension:
 
 ```
-What are the key themes in the following passage:
+Explain the central idea of the following text:
+Explain the following passage:
+Provide a brief explanation of the following text:
+Provide a general understanding of the following text:
+Provide a list of key vocabulary words from the following text:
+Provide a one-sentence summary of the following text:
+Provide a summary and analysis of the following passage:
+Provide the main idea of the following passage:
+Provide an overview of the following passage:
+Identify key points in the following passage:
+Identify major themes discussed in the following text:
+Identify the author's main argument in the following text:
+Identify the author's perspective in the following passage:
+Identify the intended audience for the following text:
+Identify the main idea of the following text:
+Identify the tone of the following text:
+Identify the underlying message of the following text:
+Identify the most important information in the following passage:
+Write a brief interpretation of the following text:
+Write a paragraph that explains the most important information in the following text:
+Write a personal opinion on the information presented in the following text:
+Write a reflection on the information presented in the following passage:
+Write a response to the following text based on your understanding:
+Write a response to the questions based on the information presented in the following passage:
+Write a short story that incorporates the information from the following text:
+Write a short summary of the following passage:
+```
+
+
+#### Analyze and Evaluate:
+Instruction verbs: "Evaluate", "Analyze", "Critique", "Assess", "Examine" etc.
+
+```
+Identify the literary devices used in the following text:
+identify the key themes in the following passage:
 Provide a detailed analysis of the following text:
-Write a summary and interpretation of the following passage:
-What's the structure of the following passage:
-Can you identify the literary devices used in the following text:
-What's the intended audience for the following passage:
-Write a critical analysis of the following passage:
-What's the purpose of the following text:
-What's the central argument of the following text:
-What's the message of the following passage:
-Write a critical analysis of the following text:
-What are the key elements of the following passage:
-Provide an interpretation of the following text:
-What are the strengths and weaknesses of the following passage:
-Write a commentary on the following text:
-What's the purpose of the following passage:
 Provide an in-depth analysis of the following passage:
-Write a review of the following text:
+Provide an interpretation of the following text:
+What are the key elements of the following passage:
+What are the strengths and weaknesses of the following passage:
 What's the author's point of view in the following passage:
-```
-
-#### Merge points or ideas:
-
-```
-Combine the following points into a single statement:
-Create a coherent argument from the following points:
-Create a conclusion that encompasses the following points:
-Create a unified statement that incorporates the following ideas:
-Find a common thread among the following points:
-Provide a unified perspective on the following points:
-What's a common theme among the following points:
-Provide a statement synthesising the relationship between the following points:
-What's the main idea that ties together the following points:
-What's the overarching idea that encompasses the following points:
-What's the relationship between the following points:
-Write a synthesis of the following information:
-Write a paragraph that ties together the following concepts:
-Write a passage that summarizes the following ideas:
-Write a short summary that unifies the following ideas:
-Write a summary that integrates the following ideas:
-```
-
-#### Classify a passage:
-
-```
-Categorize the following passage into it's genre:
-Classify the following text based on its structure:
-Identify the main theme of the following passage:
-What genre does the following text belong to:
-What type of text is the following:
+What's the central argument of the following text:
 What's the intended audience for the following passage:
-What's the purpose of the following text:
-Write the form of the following text (e.g. poem, essay, etc.):
-Write the literary style of the following passage:
-Write the tone of the following text:
-```
-
-#### Create compare and contrast:
-
-```
-Compare and contrast the following two passages:
-Provide a side-by-side comparison of the following two texts:
-Provide a summary and comparison of the following two texts:
-What are the similarities and differences between the following two passages:
-What's the relationship between the following two passages:
-Write a comparison and contrast between the following texts:
-Write a contrast of the following two pieces of text:
-Write a synthesis of the similarities and differences in the following two passages:
-```
-
-#### Translate a passage:
+What's the message of the following passage:
+What's the structure of the following passage:
+Write a commentary on the following text:
+Write a critical analysis of the following passage:
+Write a review of the following text:
+Summarize the main points made in the following passage:
+Generate reading comprehension questions based on the following passage:
+Provide a summary and evaluation of the following passage:
+Provide an analysis of the following text:
+What are your thoughts on the following passage:
+What do you agree or disagree with in the following passage:
+What's the central idea of the following passage:
+Write a critique of the following text:
+Provide a response to the following passage:
+Evaluate the argument presented in following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies.
 
 ```
-Translate the following text into:
-Can you provide a translation of the following passage into:
-What's the equivalent of the following text in:
-Write a translation of the following passage into:
-What's the meaning of the following text in:
-Can you translate the following into idiomatic:
-Write a literal translation of the following passage into:
-What's the closest translation of the following text in:
-Can you provide a cultural translation of the following text into:
-Write a fluent translation of the following passage into:
-```
+
 
 #### Generate content:
 
@@ -481,20 +516,6 @@ Can you write a monologue for a character who:
 Write a story that explores the idea of:
 ```
 
-#### Categorize text:
-
-```
-What category does the following text belong to:
-Can you classify the following text as:
-What genre does the following text fit into:
-Write a label for the following text:
-What type of text is the following:
-Can you categorize the following text based on its content:
-What subject does the following text cover:
-Write a tag for the following text:
-What category would you place the following text under:
-Can you assign a category to the following text based on its tone:
-```
 
 #### Copywriting and Marketing:
 
@@ -513,58 +534,11 @@ Write a customer testimonial for [your product/service description ...]?
 Write a marketing message for [your product/service description ...]?
 Write a persuasive blog post about [your product/service description ...]?
 Write a persuasive email for [your product/service description ...]?
-Write a press release for [product/service]
 Write a social media post to promote [product/service]
 Write an email subject line to promote [product/service]
 ```
 
-#### Reading comprehension:
 
-```
-Explain the central idea of the following text:
-Explain the following passage:
-Provide a brief explanation of the following text:
-Provide a general understanding of the following text:
-Provide a list of key vocabulary words from the following text:
-Provide a one-sentence summary of the following text:
-Provide a summary and analysis of the following passage:
-Provide a summary of the following passage:
-Provide an overview of the following passage:
-Rephrase the following passage in your own words:
-Identify key points in the following passage:
-Identify major themes discussed in the following text:
-Identify the author's main argument in the following text:
-Identify the author's perspective in the following passage:
-Identify the intended audience for the following text:
-Identify the main idea of the following text:
-Identify the tone of the following text:
-Identify the underlying message of the following text:
-Identify the most important information in the following passage:
-Write a brief interpretation of the following text:
-Write a paragraph that explains the most important information in the following text:
-Write a personal opinion on the information presented in the following text:
-Write a reflection on the information presented in the following passage:
-Write a response to the following text based on your understanding:
-Write a response to the questions based on the information presented in the following passage:
-Write a short story that incorporates the information from the following text:
-Write a short summary of the following passage:
-```
-
-#### Simplify and provide explanations:
-
-```
-Can you break down the following into simpler parts:
-Explain the following in simple terms:
-Explain the following to someone who has no prior knowledge of:
-Simplify the following:
-What's a beginner-friendly explanation of:
-What's a simple explanation for:
-What's an easy way to understand:
-Write a clear explanation of:
-Write a detailed explanation of:
-Write a layman's explanation of:
-Write a step-by-step explanation of:
-```
 
 #### Make a summary:
 
