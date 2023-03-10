@@ -558,7 +558,8 @@ Can you provide a condensed summary of:
 
 
 ### Style
-will be added soon
+
+This section will be added soon ...
 
 
 
@@ -600,20 +601,46 @@ Write a long-form blog post about [topic]. The post should be at least 1000 word
 Write a long form blog post about [topic]. The post should include an introduction, main body, and conclusion. The introduction should provide background information and set the stage for the rest of the post. The main body should cover key points and provide relevant statistics. The conclusion should summarize the key points and provide a take-away for the reader. The post should be at least 1000 words and no more than 1500 words, and the tone should be informative but approachable.
 ```
 
-Specifying the structure:
+Report: 
 ```
-Write a long form blog post about [topic]. The purpose of the post is to [purpose] and the target audience is [target audience].
+Please write a report about [topic]. Your report should be structured, clear, and concise. The information should be organized in a bullet point list or table. The total word count should be no more than [x] words. The report should be divided into the following sections, each with a maximum word count of [y]: [section 1], [section 2], [section 3], etc.
+```
 
-Introduction:
 
-Briefly introduce the topic
-Mention the purpose of the post
-Identify the target audience
-Body:
+Product description:
+```
+Write a product description for [product name], including specifications, features, benefits, and any additional relevant information
+```
 
-Structured using bullet points or numbered lists
-Keywords and phrases relevant to the target audience
-Conclusion:
 
-Summarize the key points
+
+Case study:
+```
+Write a case study about [topic]. In this case study, you should discuss [key points]. Be sure to include [specific information]. Use clear and concise language.
+```
+```
+Write a case study and product description page given product. The case study should include an introduction, background information, problem statement, solution, and results. The product description should explain what the product is and why it was created, what problem it solves, how it solves the problem, and the outcomes. Use clear and concise language, and provide examples of similar pages to guide the model. Tone should be professional and informative. 
+
+```
+
+Essay:
+```
+Write well-structured essay about based on following:
+
+Topic: [subject matter of the essay]
+
+Procedures:
+
+Introduction
+Background information
+Key arguments
+Supporting evidence
+Counterarguments
+Conclusion
+
+Context:
+
+Relevant information about the topic
+Importance of the topic
+Purpose of the essay
 ```
