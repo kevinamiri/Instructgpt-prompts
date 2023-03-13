@@ -374,7 +374,7 @@ Can you break down the following into simpler parts:
 Explain the following in simple terms:
 Explain the following to someone who has no prior knowledge of:
 Simplify the following:
-What's a beginner-friendly explanation of:
+Provide a beginner-friendly explanation for [topic, ideas, subject ...]
 What's a simple explanation for:
 What's an easy way to understand:
 Write a clear explanation of:
@@ -557,15 +557,17 @@ Can you provide a condensed summary of:
 
 
 
-### Style
+## Style
 
 This section will be added soon ...
 
 
 
-### Advanced prompting techniques
+## Advanced prompting techniques
 
-Writing blog post:
+### Generation & copywriting
+
+#### Writing blog post:
 
 ```
 Write a long form blog post about [topic]. The target audience is [target audience], and the tone should be [tone]. The post should have the following sections: [section 1], [section 2], etc. Use the following vocabulary and information content: [vocabulary and information content]. Context: [number of past prompts].
@@ -601,20 +603,20 @@ Write a long-form blog post about [topic]. The post should be at least 1000 word
 Write a long form blog post about [topic]. The post should include an introduction, main body, and conclusion. The introduction should provide background information and set the stage for the rest of the post. The main body should cover key points and provide relevant statistics. The conclusion should summarize the key points and provide a take-away for the reader. The post should be at least 1000 words and no more than 1500 words, and the tone should be informative but approachable.
 ```
 
-Report: 
+#### Report: 
 ```
 Please write a report about [topic]. Your report should be structured, clear, and concise. The information should be organized in a bullet point list or table. The total word count should be no more than [x] words. The report should be divided into the following sections, each with a maximum word count of [y]: [section 1], [section 2], [section 3], etc.
 ```
 
 
-Product description:
+#### Product description:
 ```
 Write a product description for [product name], including specifications, features, benefits, and any additional relevant information
 ```
 
 
 
-Case study:
+#### Case study:
 ```
 Write a case study about [topic]. In this case study, you should discuss [key points]. Be sure to include [specific information]. Use clear and concise language.
 ```
@@ -623,9 +625,9 @@ Write a case study and product description page given product. The case study sh
 
 ```
 
-Essay:
+#### Essay:
 ```
-Write well-structured essay about based on following:
+Write well-structured [type of the essay] essay about based on following:
 
 Topic: [subject matter of the essay]
 
@@ -644,3 +646,46 @@ Relevant information about the topic
 Importance of the topic
 Purpose of the essay
 ```
+Note: Type of essay can be expository, narrative, argumentative, descriptive, compare and contrast, cause and effect ...
+
+#### Job Description:
+
+```
+Create a job description for [Job title] at [Location/Company name]. include Responsibilities, Qualifications, Compensation package, Company culture based on given details:
+
+[List keywords related to responsibilities, qualifications, mission or vision statement ...]
+
+```
+
+```
+Write a job description for [Job Title] at [Company Name] located in [Location]. The job is in the [Industry] industry and is a [Type of Job].
+Please include sections for Job Responsibilities, Job Requirements, Job Benefits based on following details:
+
+[examples, keywords]
+
+```
+
+#### Github readme page
+
+```
+Write a detailed Github readme for a new open-source project. The readme should include a brief yet informative description of the project, step-by-step installation instructions, clear usage examples, and well-defined contribution guidelines in markdown format.
+
+```
+
+```
+Generate a Github README page for given project
+[project details, related keywords]
+Procedures:
+
+Introduction: Provide a brief overview of the project
+Installation: Explain how to install and set up the project
+Usage: Explain how to use the project
+Contributions: Explain how to contribute to the project
+Conclusion: Sum up the project and provide any additional information.
+
+```
+
+```
+Write a GitHub readme page for a project. The readme page should include an introduction to the project, its purpose, installation instructions, and usage instructions. The language should be clear and concise
+```
+
