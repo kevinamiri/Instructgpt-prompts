@@ -592,7 +592,13 @@ Context:
 Generate a long form blog post on the topic of [insert topic here]. Your post should have an engaging introduction, body, and conclusion, and include relevant information and examples. Use the following keywords to guide your writing: [insert keywords here].
 ```
 
+```
+Write a comprehensive long form blog post on [topic]. The post should be well-researched, informative, and engaging. It should include an introduction, several subheadings, and a conclusion. The post should be at least 1,500 words, and use the information provided below as a starting point. Conduct additional research as needed to ensure the post is comprehensive and informative
+```
 
+```
+Write a comprehensive long form blog post on [topic]. Start with an attention-grabbing hook and structure the post into clear and concise sections. Use the previous following data as context and aim for a tone that is informative and engaging.
+```
 
 ```
 Write a long-form blog post about [topic]. The post should be at least 1000 words and cover the following points: [list of points to cover]. Use a clear and concise writing style and make sure to include examples and relevant information to support your arguments.
