@@ -272,15 +272,15 @@ Debug the following code to correct the error and explain the cause of the error
 #### Rephrase a passage:
 
 ```
-Express the following passage in your own words:
-Paraphrase the given text below:
-Write a summary of the following passage in a few sentences:
-Translate the given passage into simpler language:
-Provide an alternative way to express the following text:
-Condense the following passage into a few sentences:
-Retell the given text in a brief manner:
-Reword the following passage in a more concise way:
-Phrase the following text differently:
+Rewrite the text below in your own words:
+Paraphrase the provided text while maintaining its meaning:
+Summarize the following passage in a concise manner:
+Simplify the given passage while keeping the main ideas:
+Rephrase the given text using alternative expressions:
+Condense the following passage to focus on key points:
+Briefly restate the provided text without losing its essence:
+Reword the passage below to make it more succinct:
+Express the following text in a different way while keeping its intent:
 ```
 
 
