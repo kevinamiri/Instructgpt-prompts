@@ -1,10 +1,12 @@
-# A collection of ChatGPT and GPT-3.5 prompts
+# A collection of ChatGPT, GPT-3.5, GPT-4 prompts
 
 This project consists of prompts for ChatGPT and GPT-3.5 models that are designed to help with writing, analysis, and comprehension tasks. There are many different prompts available for you to use, and you can use them to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. With these prompts, you will guide the models to solve any language-related task by using the right instructional verbs.
 
-![InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
+[InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
 
-![ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
+[ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
+
+[GPT4](https://openai.com/research/gpt-4) More powerful than any GPT-3.5 model, it can handle more complex instructions and can follow and apply them more effectively.
 
 ## Why to use:
 
@@ -509,7 +511,6 @@ Write a short summary of the following passage, emphasizing the main points and 
 Instruction verbs: "Evaluate", "Analyze", "Critique", "Assess", "Examine" etc.
 
 ```
-Better ✅:
 
 Identify the literary devices used in the following text, such as metaphors, similes, personification, and alliteration.
 Identify the key themes in the following passage, highlighting the recurring ideas and motifs.
@@ -600,7 +601,7 @@ Provide a condensed summary of the following text, highlighting its essential po
 
 
 
-## Style:
+## Style ✅:
 
 When creating prompts, adopting a specific style is essential for several reasons. A well-defined style helps in the following ways:
 
@@ -624,7 +625,7 @@ When choosing a style for your prompts, consider the following factors:
 
 5. Positive instructions: Instead of just saying what not to do, say what to do instead.
 
-By carefully considering the style and crafting your prompts accordingly, you can improve the quality and relevance of the AI model's responses, ultimately making your interactions with the AI more efficient and effective. ![source](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+By carefully considering the style and crafting your prompts accordingly, you can improve the quality and relevance of the AI model's responses, ultimately making your interactions with the AI more efficient and effective. [read more](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
 
 
 ```
