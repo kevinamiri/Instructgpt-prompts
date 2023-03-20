@@ -320,146 +320,188 @@ Write the tone of the following text:
 ##### Categorize text:
 
 ```
-What category does the following text belong to:
-Can you classify the following text as:
-What genre does the following text fit into:
-Write a label for the following text:
-What type of text is the following:
-Can you categorize the following text based on its content:
-What subject does the following text cover:
-Write a tag for the following text:
-What category would you place the following text under:
-Can you assign a category to the following text based on its tone:
+What is the genre/category of the following text? Assign one or more appropriate categories/genres.
+Can you classify the following text as belonging to a particular type of writing? If so, what is it?
+What kind of text is the following? Choose the most appropriate category or genre.
+Write a label or tag for the following text based on its content.
+What type of text does the following represent? Choose the most appropriate category or genre.
+Can you categorize the following text based on its subject matter? If so, what category would it fall under?
+What subject does the following text cover? Choose the best category or topic.
+Write a tag or label for the following text based on its tone and content.
+What category does the following text fit into? Choose the most relevant category or genre.
+Can you assign a category or genre to the following text based on its tone and style?
 ```
 
 #### Create compare and contrast:
 
 ```
-Compare and contrast the following two passages:
-Provide a side-by-side comparison of the following two texts:
-Provide a summary and comparison of the following two texts:
-What are the similarities and differences between the following two passages:
-What's the relationship between the following two passages:
-Write a comparison and contrast between the following texts:
-Write a contrast of the following two pieces of text:
-Write a synthesis of the similarities and differences in the following two passages:
+Compare and contrast the following two texts below, highlighting the similarities and differences in a bullet point list.
+Provide a side-by-side comparison of the following two passages, indicating the key similarities and differences.
+Provide a summary and comparison of the following two texts, highlighting the main points and contrasting the key differences.
+What are the similarities and differences between the following two passages? Provide a detailed comparison in a paragraph.
+What's the relationship between the following two passages? Write a comparison and contrast using a bullet point list.
+Write a comparison and contrast between the following texts, highlighting the similarities and differences in a paragraph.
+Write a contrast of the following two pieces of text, emphasizing the key differences in a bullet point list.
+Write a synthesis of the similarities and differences in the following two passages, highlighting the key points and contrasting the differences in a paragraph.
 ```
 
 
 #### Merge points or ideas:
 
 ```
-Combine the following points into a single statement:
+Combine the following points into a single coherent statement:
+Create a persuasive argument by integrating the following points:
+Create a comprehensive conclusion that encompasses the following ideas:
+Create a unified statement that incorporates the following ideas and presents a cohesive perspective:
+Identify a common thread among the following points and create a statement that ties them together:
+Provide a unified perspective on the following points, presenting them as a cohesive whole:
+What's a common theme among the following points and how do they relate to each other?
+Provide a synthesized statement that captures the relationship between the following points:
+What's the main idea that connects the following points and presents a unified perspective?
+What's the overarching idea that encompasses the following points and presents a cohesive argument?
+What's the relationship between the following points and how do they fit together?
+Write a synthesis of the following information, creating a cohesive statement that captures the key points:
+Write a paragraph that ties together the following concepts and presents a unified perspective:
+Write a summary that captures the essence of the following ideas and presents them as a cohesive whole:
+Write a short summary that unifies the following ideas and presents a clear, cohesive statement:
+Write a summary that integrates the following ideas, creating a cohesive perspective that captures the key points.
+
+
+Combine the following points into a single, coherent statement:
+- Point 1
+- Point 2
+- Point 3
+
 Create a coherent argument from the following points:
+- Argument 1
+- Argument 2
+- Argument 3
+
 Create a conclusion that encompasses the following points:
-Create a unified statement that incorporates the following ideas:
-Find a common thread among the following points:
-Provide a unified perspective on the following points:
-What's a common theme among the following points:
-Provide a statement synthesising the relationship between the following points:
-What's the main idea that ties together the following points:
-What's the overarching idea that encompasses the following points:
-What's the relationship between the following points:
-Write a synthesis of the following information:
+- Conclusion Point 1
+- Conclusion Point 2
+- Conclusion Point 3
+
+Find a common thread among the following points and provide a unified perspective:
+- Idea 1
+- Idea 2
+- Idea 3
+
+Provide a statement synthesizing the relationship between the following points:
+- Point A
+- Point B
+- Point C
+
+Write a synthesis of the following information, summarizing the main idea or overarching theme:
+- Information 1
+- Information 2
+- Information 3
+
 Write a paragraph that ties together the following concepts:
-Write a passage that summarizes the following ideas:
-Write a short summary that unifies the following ideas:
-Write a summary that integrates the following ideas:
+- Concept 1
+- Concept 2
+- Concept 3
+
+Write a passage that summarizes the following ideas and identifies the relationship between them:
+- Idea A
+- Idea B
+- Idea C
+
 ```
 
 #### Simplify and provide explanations:
 
 ```
-Can you break down the following into simpler parts:
-Explain the following in simple terms:
-Explain the following to someone who has no prior knowledge of:
-Simplify the following:
-Provide a beginner-friendly explanation for [topic, ideas, subject ...]
-What's a simple explanation for:
-What's an easy way to understand:
-Write a clear explanation of:
-Write a detailed explanation of:
-Write a layman's explanation of:
-Write a step-by-step explanation of:
+Break down the following text into simpler parts and explain it step-by-step for a beginner.
+Explain the following text in simple terms, using everyday language for a general audience.
+Provide a beginner-friendly explanation for the following text, assuming the reader has no prior knowledge of the subject.
+Simplify the following text to make it easily digestible for someone new to the topic.
+Provide a clear, concise explanation of the following text for someone with no background in the subject.
+What's a simple explanation for the key concept in the following text? Write it in one sentence.
+What's an easy way to understand the main idea in the following text? Provide a brief, simple explanation.
+Write a clear explanation of the following text, focusing on the most important aspects in plain language.
+Write a detailed explanation of the following text, breaking down complex concepts into simpler terms.
+Write a layman's explanation for the following text, using everyday language and examples to illustrate the main points.
+Write a step-by-step explanation of the process or concept in the following text, making it easy for a beginner to follow.
 ```
 
 #### Writing:
 
 ```
-Come up with a creative solution for the following:
-Create a dialogue between two characters that includes:
-Describe a setting that includes:
-Imagine a world where the following is true:
-Provide an explanation for the following:
-Make a list of pros and cons based on the following:
-Develop a scene about the following:
-Compose a short science fiction story that includes:
-Generate a story that revolves around [topic]:
-Find an imaginative way to describe:
-Write an interesting twist ending for a story about:
+Come up with a creative solution for the following problem:
+Create a dialogue between two characters that discusses [topic]:
+Describe a setting that includes [specific details]:
+Imagine a world where [condition is met]. Describe this world in a paragraph.
+Provide an explanation of [topic] in 2-3 sentences.
+Make a list of pros and cons based on [specific topic]:
+Develop a scene about [topic] that includes [specific details].
+Compose a short science fiction story that includes [specific element]:
+Generate a story that revolves around [topic]. The story should be [genre] and no more than [length] words.
+Find an imaginative way to describe [specific topic]:
+Write an interesting twist ending for a story about [specific event or topic].
 
 ```
 
 
-##### Writing prompts:
+##### Writing prompts (for practice creative writing):
 
 ```
-Can you suggest a writing prompt for:
-Generate a creative writing prompt for:
-What's a good writing topic for:
-Can you come up with a new idea for a writing prompt:
-Write a short story prompt for:
-What's a unique writing prompt for:
-Can you create a writing prompt for a fictional character:
-What's a writing prompt for a mystery story:
-Can you suggest a writing prompt for a descriptive scene:
-What's a writing prompt for a love story:
+Can you provide a writing prompt that requires the use of [specific writing technique or element], such as [dialogue, imagery, symbolism, etc.]?
+Generate a creative writing prompt that focuses on [specific theme or genre], such as [romance, horror, fantasy, etc.].
+What's a good writing topic that would challenge the writer to [specific writing goal or objective], such as [developing a character, creating tension, building suspense, etc.]?
+Can you propose a unique idea for a writing prompt that would require the writer to [specific writing task], such as [writing from an unusual perspective, using a specific narrative style, etc.]?
+Write a short story prompt that explores the theme of [specific theme or concept], such as [identity, transformation, forgiveness, etc.].
+What's a unique writing prompt that would challenge the writer to [specific writing task or challenge], such as [writing without using dialogue, writing in second person point of view, etc.]?
+Can you create a writing prompt that involves a fictional character who must [specific task or challenge], such as [overcome a fear, solve a mystery, etc.]?
+What's a writing prompt for a mystery story that involves [specific element or twist], such as [an unreliable narrator, a surprise ending, etc.]?
+Can you suggest a writing prompt for a descriptive scene that requires the writer to focus on [specific sensory detail or sensory experience], such as [using smell to create atmosphere, using touch to create emotion, etc.]?
+What's a writing prompt for a love story that involves [specific obstacle or challenge], such as [long distance, forbidden love, etc.]?
 ```
 
 #### Proofreading and text editing:
 
 ```
-Proofread and edit the following text:
-Write a corrected version of the following text:
-What are the grammatical errors in the following text:
-Write a revised version of the following passage:
-Provide suggestions for improving the following text:
-What's the appropriate format for the following text:
-Write a more concise version of the following text:
-Suggest alternative phrasing for the following text:
-What's the appropriate tone for the following text:
-Write a polished version of the following text:
+Proofread and edit the following text for any errors, typos, or mistakes:
+Rewrite the following text, correcting any errors or mistakes:
+Identify and correct the grammatical errors in the following text:
+Revise the following passage to improve its clarity, coherence, and overall quality:
+Provide constructive feedback and suggestions for improving the following text:
+What's the expected format for the following text? Please follow the guidelines provided:
+Write a more concise and streamlined version of the following text:
+Propose alternative phrasing for the following text that better conveys the intended message:
+What's the appropriate tone and style for the following text? Please use a tone that is professional and formal.
+Write a polished and refined version of the following text to improve its overall quality and readability.
 ```
 
 #### Reading comprehension:
 
 ```
-Explain the central idea of the following text:
-Explain the following passage:
-Provide a brief explanation of the following text:
-Provide a general understanding of the following text:
-Provide a list of key vocabulary words from the following text:
-Provide a one-sentence summary of the following text:
-Provide a summary and analysis of the following passage:
-Provide the main idea of the following passage:
-Provide an overview of the following passage:
-Identify key points in the following passage:
-Identify major themes discussed in the following text:
-Identify the author's main argument in the following text:
-Identify the author's perspective in the following passage:
-Identify the intended audience for the following text:
-Identify the main idea of the following text:
-Identify the tone of the following text:
-Identify the underlying message of the following text:
-Identify the most important information in the following passage:
-Write a brief interpretation of the following text:
-Write a paragraph that explains the most important information in the following text:
-Write a personal opinion on the information presented in the following text:
-Write a reflection on the information presented in the following passage:
-Write a response to the following text based on your understanding:
-Write a response to the questions based on the information presented in the following passage:
-Write a short story that incorporates the information from the following text:
-Write a short summary of the following passage:
+Explain the central idea of the following text below in a 2-3 sentence paragraph.
+Explain the following passage below in a concise paragraph.
+Provide a brief explanation of the text below, highlighting the main points in no more than 3-4 sentences.
+Provide a general understanding of the text below, emphasizing the key takeaways in 2-3 sentences.
+Provide a list of key vocabulary words used in the text below.
+Provide a one-sentence summary of the following text, highlighting the primary message.
+Provide a summary and analysis of the following passage, emphasizing the main points and discussing their significance in a brief paragraph.
+Provide the main idea of the following passage in a concise sentence.
+Provide an overview of the following passage in 2-3 sentences, highlighting the main themes and ideas.
+Identify key points in the following passage and summarize them in a bullet point list.
+Identify major themes discussed in the following text below and provide a brief explanation of each.
+Identify the author's main argument in the following text and summarize it in a sentence or two.
+Identify the author's perspective in the following passage and provide a brief explanation of their point of view.
+Identify the intended audience for the following text and explain who the text is written for.
+Identify the main idea of the following text and provide a brief summary in one or two sentences.
+Identify the tone of the following text and provide a brief explanation of the author's attitude.
+Identify the underlying message of the following text and explain the implicit meaning.
+Identify the most important information in the following passage and summarize it in a bullet point list.
+Write a brief interpretation of the text below, providing your understanding and analysis in a concise paragraph.
+Write a paragraph that explains the most important information in the following text below, emphasizing the main points and their significance.
+Write your personal opinion on the information presented in the following text, providing your perspective and analysis.
+Write a reflection on the information presented in the following passage, discussing its relevance and implications.
+Write a response to the following text based on your understanding, providing your thoughts and analysis in a concise paragraph.
+Write a response to the questions based on the information presented in the following passage, answering each question with a brief explanation.
+Write a short story that incorporates the information from the following text below, using the main points and themes to create a narrative.
+Write a short summary of the following passage, emphasizing the main points and ideas in a concise paragraph.
 ```
 
 
@@ -559,7 +601,257 @@ Can you provide a condensed summary of:
 
 ## Style
 
-This section will be added soon ...
+Better ✅:
+
+1. Identify the literary devices used in the following text:
+
+Text: """
+{input text}
+"""
+
+Literary devices:
+
+---
+
+2. Identify the key themes in the following passage:
+
+Text: """
+{input text}
+"""
+
+Key themes:
+
+---
+
+3. Provide a detailed analysis of the following text, focusing on its structure, themes, and literary devices:
+
+Text: """
+{input text}
+"""
+
+Analysis:
+
+---
+
+4. Provide an in-depth analysis of the following passage, examining its themes, author's perspective, and literary techniques:
+
+Text: """
+{input text}
+"""
+
+In-depth analysis:
+
+---
+
+5. Provide an interpretation of the following text, discussing its meaning, themes, and underlying messages:
+
+Text: """
+{input text}
+"""
+
+Interpretation:
+
+---
+
+6. Identify the key elements of the following passage, such as themes, literary devices, and author's perspective:
+
+Text: """
+{input text}
+"""
+
+Key elements:
+
+---
+
+7. Discuss the strengths and weaknesses of the following passage, considering its structure, themes, and literary techniques:
+
+Text: """
+{input text}
+"""
+
+Strengths:
+Weaknesses:
+
+---
+8. Analyze the author's point of view in the following passage, considering their perspective and tone:
+
+Text: """
+{input text}
+"""
+
+Author's point of view:
+
+---
+
+9. Identify the central argument of the following text, and discuss its main supporting points:
+
+Text: """
+{input text}
+"""
+
+Central argument:
+
+---
+
+10. Determine the intended audience for the following passage, considering its content, tone, and style:
+
+Text: """
+{input text}
+"""
+
+Intended audience:
+
+---
+
+11. Discuss the message conveyed by the following passage, focusing on its themes and underlying ideas:
+
+Text: """
+{input text}
+"""
+
+Message:
+
+---
+
+12. Analyze the structure of the following passage, discussing its organization and development of ideas:
+
+Text: """
+{input text}
+"""
+
+Structure:
+
+---
+
+13. Write a commentary on the following text, providing insights on its themes, style, and literary devices:
+
+Text: """
+{input text}
+"""
+
+Commentary:
+
+---
+
+14. Write a critical analysis of the following passage, examining its themes, structure, and literary techniques:
+
+Text: """
+{input text}
+"""
+
+Critical analysis:
+
+---
+
+15. Write a review of the following text, discussing its strengths, weaknesses, and overall impact:
+
+Text: """
+{input text}
+"""
+
+Review:
+
+---
+
+16. Summarize the main points made in the following passage:
+
+Text: """
+{input text}
+"""
+
+Summary:
+
+---
+
+17. Generate reading comprehension questions based on the following passage:
+
+Text: """
+{input text}
+"""
+
+Questions:
+
+---
+
+18. Provide a summary and evaluation of the following passage, discussing its main ideas and effectiveness:
+
+Text: """
+{input text}
+"""
+
+Summary:
+Evaluation:
+
+---
+
+19. Analyze the following text, focusing on its themes, structure, and literary devices:
+
+Text: """
+{input text}
+"""
+
+Analysis:
+
+---
+
+20. Share your thoughts on the following passage, discussing its content, style, and impact:
+
+Text: """
+{input text}
+"""
+
+Thoughts:
+
+---
+
+21. Discuss what you agree or disagree with in the following passage, and provide reasons for your stance:
+
+Text: """
+{input text}
+"""
+
+Agree:
+Disagree:
+
+---
+
+22. Identify the central idea of the following passage and discuss its development throughout the text:
+
+Text: """
+{input text}
+"""
+
+Central idea:
+
+---
+
+23. Write a critique of the following text, evaluating its content, structure, and style:
+
+Text: """
+{input text}
+"""
+
+Critique:
+
+---
+
+24. Provide a response to the following passage, discussing its themes, messages, and impact:
+
+Text: """
+{input text}
+"""
+
+Response:
+
+---
+
+25. Evaluate the argument presented in the following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies:
+
+Text: """
+{input text}
+"""
+
+Evaluation:
 
 
 
