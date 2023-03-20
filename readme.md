@@ -250,6 +250,12 @@ And use AI for good, for all.
 For in its power, we must not fall,
 But rise above, and hear the call.
 ```
+	
+Better prompting ✅:
+
+```
+Write a thought-provoking poem that incorporates the themes of ghosts, the 4th dimension, AI, totalitarianism, and power. The poem should be structured in a traditional format with 4 stanzas and a consistent rhyme scheme.
+```
 
 ### More instruct commands:
 
