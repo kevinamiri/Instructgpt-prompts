@@ -256,30 +256,29 @@ But rise above, and hear the call.
 #### Programming related tasks:
 
 ```
-Write a function to solve the following problem:
-Write a script to automate the following process:  
-Provide an algorithm based on the following problem:
-Provide the logic behind the following code: 
-Optimize the following function to run faster, use less memory, or be more readable: 
-Write a function based on the following requirements:
-Explain the following code to a non-technical person:
-Debug the following code to fix the error, and explain the reason for the error:
+Develop a function that solves the following problem: [problem description].
+Automate the following process by writing a script that [task description].
+Create an algorithm that solves the following problem: [problem description].
+Explain the logic behind the following code: [code snippet].
+Optimize the following function to enhance performance, reduce memory usage, or improve readability.
+Write a function that meets the following requirements: [requirement description].
+Explain the purpose of the following code to a non-technical audience, using simple and clear language.
+Debug the following code to correct the error and explain the cause of the error.
 ```
 
 
 #### Rephrase a passage:
 
 ```
-Reword the following text:
-Rewrite the following passage in your own words:
-Paraphrase the following text:
-Write a summarized version of the following passage:
-Can you translate the following passage into simpler language:
-What's an alternative way to express the following text:
-Can you condense the following passage into a few sentences:
-Write a brief retelling of the following text:
-Rewrite the following passage in a more concise way:
-What's a different way to phrase the following text:
+Express the following passage in your own words:
+Paraphrase the given text below:
+Write a summary of the following passage in a few sentences:
+Translate the given passage into simpler language:
+Provide an alternative way to express the following text:
+Condense the following passage into a few sentences:
+Retell the given text in a brief manner:
+Reword the following passage in a more concise way:
+Phrase the following text differently:
 ```
 
 
@@ -304,16 +303,16 @@ Make a summary of following of given text that deals with the [concept/topic]:
 #### Classify a passage:
 
 ```
-Categorize the following passage into it's genre:
-Classify the following text based on its structure:
-Identify the main theme of the following passage:
-What genre does the following text belong to:
-What type of text is the following:
-What's the intended audience for the following passage:
-What's the purpose of the following text:
-Write the form of the following text (e.g. poem, essay, etc.):
-Write the literary style of the following passage:
-Write the tone of the following text:
+Determine the genre of the following passage, based on its style, tone, and subject matter.
+Classify the following text based on its structure and organization, identifying any recurring patterns or themes.
+Identify the main theme or thesis of the following passage, summarizing its central idea or argument.
+What genre does the following text belong to, based on its conventions and characteristics?
+What type of text is the following, based on its intended purpose and audience?
+Who is the intended audience for the following passage, based on its language, tone, and style?
+What is the purpose of the following text, and what message or information is it trying to convey?
+Write the form of the following text (e.g. poem, essay, article, etc.), based on its structure and style.
+Write the literary style of the following passage, identifying any literary devices or techniques used.
+Write the tone of the following text, based on its language, attitude, and emotional impact.
 ```
 
 
@@ -366,6 +365,7 @@ Write a summary that captures the essence of the following ideas and presents th
 Write a short summary that unifies the following ideas and presents a clear, cohesive statement:
 Write a summary that integrates the following ideas, creating a cohesive perspective that captures the key points.
 
+##### The structure could look like this:
 
 Combine the following points into a single, coherent statement:
 - Point 1
@@ -509,30 +509,32 @@ Write a short summary of the following passage, emphasizing the main points and 
 Instruction verbs: "Evaluate", "Analyze", "Critique", "Assess", "Examine" etc.
 
 ```
-Identify the literary devices used in the following text:
-identify the key themes in the following passage:
-Provide a detailed analysis of the following text:
-Provide an in-depth analysis of the following passage:
-Provide an interpretation of the following text:
-What are the key elements of the following passage:
-What are the strengths and weaknesses of the following passage:
-What's the author's point of view in the following passage:
-What's the central argument of the following text:
-What's the intended audience for the following passage:
-What's the message of the following passage:
-What's the structure of the following passage:
-Write a commentary on the following text:
-Write a critical analysis of the following passage:
-Write a review of the following text:
-Summarize the main points made in the following passage:
-Generate reading comprehension questions based on the following passage:
-Provide a summary and evaluation of the following passage:
-Provide an analysis of the following text:
-What are your thoughts on the following passage:
-What do you agree or disagree with in the following passage:
-What's the central idea of the following passage:
-Write a critique of the following text:
-Provide a response to the following passage:
+Better ✅:
+
+Identify the literary devices used in the following text, such as metaphors, similes, personification, and alliteration.
+Identify the key themes in the following passage, highlighting the recurring ideas and motifs.
+Provide a detailed analysis of the following text, examining its structure, style, tone, and literary devices.
+Provide an in-depth analysis of the following passage, exploring its meaning, symbolism, and themes.
+Provide an interpretation of the following text, offering your perspective on its meaning and significance.
+What are the key elements of the following passage, including its setting, characters, plot, and themes?
+What are the strengths and weaknesses of the following passage, evaluating its effectiveness in conveying its message or telling its story?
+What's the author's point of view in the following passage, and how does it shape the narrative or argument presented?
+What's the central argument of the following text, and how does the author support it with evidence and reasoning?
+What's the intended audience for the following passage, and how does the author tailor the language and style to appeal to them?
+What's the message of the following passage, and how does it relate to broader issues or concerns?
+What's the structure of the following passage, and how does it contribute to the overall effectiveness of the text?
+Write a commentary on the following text, providing your opinion and analysis of its strengths and weaknesses.
+Write a critical analysis of the following passage, examining its literary, cultural, or social significance.
+Write a review of the following text, evaluating its merits and shortcomings as a work of literature, art, or media.
+Summarize the main points made in the following passage, highlighting the key ideas and arguments.
+Generate reading comprehension questions based on the following passage, testing the reader's understanding of its content and meaning.
+Provide a summary and evaluation of the following passage, assessing its effectiveness in achieving its goals or conveying its message.
+Provide an analysis of the following text, examining its structure, language, and themes.
+What are your thoughts on the following passage, and how does it relate to your personal experiences or beliefs?
+What do you agree or disagree with in the following passage, and why?
+What's the central idea of the following passage, and how does it relate to broader themes or issues?
+Write a critique of the following text, offering a detailed evaluation of its strengths and weaknesses.
+Provide a response to the following passage, sharing your thoughts and reactions to its content and themes.
 Evaluate the argument presented in following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies.
 
 ```
@@ -541,21 +543,21 @@ Evaluate the argument presented in following passage, and assess the author's us
 #### Generate content:
 
 ```
-Write a story that starts with the following sentence: "..."
-Create a plot for a novel about the following theme: "..."
-Write a scene where the following event occurs: "..."
+Write a story that starts with the following sentence:
+Create a plot for a novel about the following theme:
+Write a scene where the following event occurs:
 What if the following situation happened: "..."? Write a short story exploring the consequences.
-Can you write a script for a movie about the theme: "..."?
-Write a tale that involves the following elements: "..."
-Create a character profile for a person with the following traits: "..."
-Write a song that describes the emotion: "..."
+Can you write a script for a movie about the theme:
+Write a tale that involves the following elements:
+Create a character profile for a person with the following traits:
+Write a song that describes the emotion: 
 What would happen if the following event occurred: "..."? Write a short story exploring the outcome.
 Can you write a story that revolves around the concept: "..."?
-Write a poem about the following theme: "..."
-Create a short story that includes the following elements: "..."
+Write a poem about the following theme: 
+Create a short story that includes the following elements:
 What if the following scenario took place: "..."? Write a story exploring the implications.
 Can you write a monologue for a character who experiences the following situation: "..."?
-Write a story that explores the idea of: "..."
+Write a story that explores the idea of:
 ```
 
 
@@ -598,19 +600,33 @@ Provide a condensed summary of the following text, highlighting its essential po
 
 
 
-## Style
+## Style:
 
-```
-Identify the literary devices used in the following text:
+When creating prompts, adopting a specific style is essential for several reasons. A well-defined style helps in the following ways:
 
-Text: """
-{input text}
-"""
+1. Consistency: A consistent style makes your prompts more predictable and easier to understand for the AI model. It ensures that the model receives clear instructions and produces the desired output across multiple prompts.
 
-Literary devices:
+2. Clarity: A well-defined style ensures that your instructions are clear and unambiguous. This reduces the chances of the AI model misunderstanding your prompt or generating irrelevant or undesired responses.
 
----
-```
+3. Efficiency: A good style allows you to communicate your requirements effectively, reducing the need for multiple iterations or adjustments to the prompt. This saves time and resources.
+
+4. Customization: By adopting a specific style, you can tailor the output to match your desired tone, format, and level of detail. This is particularly useful when trying to generate content that adheres to a particular brand voice, industry standard, or target audience.
+
+When choosing a style for your prompts, consider the following factors:
+
+1. Detail and specificity: Be as specific and detailed as possible about the desired context, outcome, length, format, and style.
+
+2. Instruction placement: Put instructions at the beginning of the prompt, and use separators like ### or """ to separate the instruction and context.
+
+3. Examples: Provide examples of the desired output format, which helps the model understand your expectations better.
+
+4. Avoid fluff: Use concise and precise language to minimize ambiguity and confusion.
+
+5. Positive instructions: Instead of just saying what not to do, say what to do instead.
+
+By carefully considering the style and crafting your prompts accordingly, you can improve the quality and relevance of the AI model's responses, ultimately making your interactions with the AI more efficient and effective. ![source](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+
+
 ```
 Identify the key themes in the following passage:
 
@@ -622,72 +638,7 @@ Key themes:
 
 ---
 ```
-```
-Provide a detailed analysis of the following text, focusing on its structure, themes, and literary devices:
 
-Text: """
-{input text}
-"""
-
-Analysis:
-
----
-```
-```
-Provide an in-depth analysis of the following passage, examining its themes, author's perspective, and literary techniques:
-
-Text: """
-{input text}
-"""
-
-In-depth analysis:
-
----
-```
-```
-Provide an interpretation of the following text, discussing its meaning, themes, and underlying messages:
-
-Text: """
-{input text}
-"""
-
-Interpretation:
-
----
-```
-```
-Identify the key elements of the following passage, such as themes, literary devices, and author's perspective:
-
-Text: """
-{input text}
-"""
-
-Key elements:
-
----
-```
-```
-Discuss the strengths and weaknesses of the following passage, considering its structure, themes, and literary techniques:
-
-Text: """
-{input text}
-"""
-
-Strengths:
-Weaknesses:
-
----
-```
-```
-Analyze the author's point of view in the following passage, considering their perspective and tone:
-
-Text: """
-{input text}
-"""
-
-Author's point of view:
-
----
 ```
 ```
 Identify the central argument of the following text, and discuss its main supporting points:
@@ -700,17 +651,7 @@ Central argument:
 
 ---
 ```
-```
-Determine the intended audience for the following passage, considering its content, tone, and style:
 
-Text: """
-{input text}
-"""
-
-Intended audience:
-
----
-```
 ```
 Discuss the message conveyed by the following passage, focusing on its themes and underlying ideas:
 
@@ -722,165 +663,11 @@ Message:
 
 ---
 ```
-```
-Analyze the structure of the following passage, discussing its organization and development of ideas:
-
-Text: """
-{input text}
-"""
-
-Structure:
-
----
-```
-```
-Write a commentary on the following text, providing insights on its themes, style, and literary devices:
-
-Text: """
-{input text}
-"""
-
-Commentary:
-
----
-```
-```
-Write a critical analysis of the following passage, examining its themes, structure, and literary techniques:
-
-Text: """
-{input text}
-"""
-
-Critical analysis:
-
----
-```
-```
-Write a review of the following text, discussing its strengths, weaknesses, and overall impact:
-
-Text: """
-{input text}
-"""
-
-Review:
-
----
-```
-```
-Summarize the main points made in the following passage:
-
-Text: """
-{input text}
-"""
-
-Summary:
-
----
-```
-```
-Generate reading comprehension questions based on the following passage:
-
-Text: """
-{input text}
-"""
-
-Questions:
-
----
-```
-```
-Provide a summary and evaluation of the following passage, discussing its main ideas and effectiveness:
-
-Text: """
-{input text}
-"""
-
-Summary:
-Evaluation:
-
----
----
-```
-```
-Analyze the following text, focusing on its themes, structure, and literary devices:
-
-Text: """
-{input text}
-"""
-
-Analysis:
-
----
-```
-```
-Share your thoughts on the following passage, discussing its content, style, and impact:
-
-Text: """
-{input text}
-"""
-
-Thoughts:
-
----
-```
-```
-Discuss what you agree or disagree with in the following passage, and provide reasons for your stance:
-
-Text: """
-{input text}
-"""
-
-Agree:
-Disagree:
-
----
-```
-```
-Identify the central idea of the following passage and discuss its development throughout the text:
-
-Text: """
-{input text}
-"""
-
-Central idea:
-
----
-```
-```
-Write a critique of the following text, evaluating its content, structure, and style:
-
-Text: """
-{input text}
-"""
-
-Critique:
-
----
-```
-```
-Provide a response to the following passage, discussing its themes, messages, and impact:
-
-Text: """
-{input text}
-"""
-
-Response:
-
----
-```
-```
-Evaluate the argument presented in the following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies:
-
-Text: """
-{input text}
-"""
-
-Evaluation:
-
-```
 
 
-## Advanced prompting techniques
+## Advanced prompting techniques  
+
+This section is under development specifically for GPT-4, the following are drafts but will work well for all instructioal-based GPTs
 
 ### Generation & copywriting
 
@@ -888,10 +675,6 @@ Evaluation:
 
 ```
 Write a long form blog post about [topic]. The target audience is [target audience], and the tone should be [tone]. The post should have the following sections: [section 1], [section 2], etc. Use the following vocabulary and information content: [vocabulary and information content]. Context: [number of past prompts].
-```
-
-```
-Write a 1000-word blog post in first person about [topic]. Cover [list of topics to cover] in a conversational tone."
 ```
 
 
@@ -920,7 +703,19 @@ Write a comprehensive long form blog post on [topic]. Start with an attention-gr
 ```
 Write a long-form blog post about [topic]. The post should be at least 1000 words and cover the following points: [list of points to cover]. Use a clear and concise writing style and make sure to include examples and relevant information to support your arguments.
 ```
+```
+Create an informative and engaging long-form blog post on [topic], using the following keywords as a guide: [insert keywords here]. The post should be at least 1500 words and include an introduction, several subheadings, and a conclusion. Conduct additional research as needed to ensure the post is comprehensive and informative.
+```
 
+```
+Write a well-researched and informative long-form blog post about [topic] that is structured into clear and concise sections. The post should be at least 1500 words and start with an attention-grabbing hook. Use the previous data as context and aim for a tone that is informative and engaging, providing examples and relevant information to support your arguments.
+```
+```
+Create a long-form blog post that covers the following points about [topic]: [list of points to cover]. The post should be at least 1000 words and should use a clear and concise writing style. Provide examples and relevant information to support your arguments and make sure to include an introduction, main body, and conclusion that summarizes the key points and provides a take-away for the reader.
+```
+```
+Write a long-form blog post about [topic] that is at least 1000 words and no more than 1500 words. The post should include an introduction that provides background information and sets the stage for the rest of the post, a main body that covers key points and provides relevant statistics, and a conclusion that summarizes the key points and provides a take-away for the reader. The tone should be informative but approachable, providing examples and relevant information to support your arguments.
+```
 
 ```
 Write a long form blog post about [topic]. The post should include an introduction, main body, and conclusion. The introduction should provide background information and set the stage for the rest of the post. The main body should cover key points and provide relevant statistics. The conclusion should summarize the key points and provide a take-away for the reader. The post should be at least 1000 words and no more than 1500 words, and the tone should be informative but approachable.
