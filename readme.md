@@ -541,43 +541,43 @@ Evaluate the argument presented in following passage, and assess the author's us
 #### Generate content:
 
 ```
-Write a story that starts with:
-Create a plot for a novel about:
-Write a scene where:
-What if:
-Can you write a script for a movie about:
-Write a tale that involves:
-Create a character profile for:
-Write a song that describes:
-What would happen if:
-Can you write a story that revolves around:
-Write a poem about the following theme:
-Create a short story that includes:
-What if the following scenario took place:
-Can you write a monologue for a character who:
-Write a story that explores the idea of:
+Write a story that starts with the following sentence: "..."
+Create a plot for a novel about the following theme: "..."
+Write a scene where the following event occurs: "..."
+What if the following situation happened: "..."? Write a short story exploring the consequences.
+Can you write a script for a movie about the theme: "..."?
+Write a tale that involves the following elements: "..."
+Create a character profile for a person with the following traits: "..."
+Write a song that describes the emotion: "..."
+What would happen if the following event occurred: "..."? Write a short story exploring the outcome.
+Can you write a story that revolves around the concept: "..."?
+Write a poem about the following theme: "..."
+Create a short story that includes the following elements: "..."
+What if the following scenario took place: "..."? Write a story exploring the implications.
+Can you write a monologue for a character who experiences the following situation: "..."?
+Write a story that explores the idea of: "..."
 ```
 
 
 #### Copywriting and Marketing:
 
 ```
-Can you come up with a brand slogan for [company name]/[product name]/[service name]/ ...
-Can you come up with a unique selling point for [a product that deals with ...]
-Craft a mission statement for ['what company does' ...]
-Craft a promotional slogan for [a product that deals with ...]
-Create a catchy headline for [a article about ...]
-Create a social media post for [a product that deals with ...] that will be run on [social media platform]
-Create a tagline for [a product that deals with ...]
-What's the elevator pitch [your product/service description ...]?
-What's the unique selling proposition for [product description]?
-Write a compelling product description for [your product/service description ...]?
-Write a customer testimonial for [your product/service description ...]?
-Write a marketing message for [your product/service description ...]?
-Write a persuasive blog post about [your product/service description ...]?
-Write a persuasive email for [your product/service description ...]?
-Write a social media post to promote [product/service]
-Write an email subject line to promote [product/service]
+Create a captivating brand slogan for [company name] that reflects its core values and mission.
+Develop a unique selling point for a product that deals with [specific problem or need], emphasizing its benefits and advantages.
+Craft a mission statement for a company that specializes in [specific industry or service], highlighting its goals and vision.
+Design a promotional slogan for a product that addresses [specific problem or need], showcasing its features and benefits.
+Compose a catchy headline for an article about [specific topic], capturing the reader's attention and curiosity.
+Craft a social media post for a product that deals with [specific problem or need] to be shared on [social media platform], focusing on engaging visuals and persuasive language.
+Invent a memorable tagline for a product that tackles [specific problem or need], emphasizing its distinctive features.
+Formulate a concise elevator pitch for [your product/service description], highlighting its unique value proposition and target market.
+Identify the unique selling proposition for [product description], emphasizing its key differentiators and benefits to customers.
+Write a compelling product description for [your product/service description], focusing on its features, benefits, and target audience.
+Compose a convincing customer testimonial for [your product/service description], sharing the positive impact it had on the customer's life or business.
+Create a persuasive marketing message for [your product/service description], highlighting its unique value proposition and how it solves customers' problems.
+Write an engaging and persuasive blog post about [your product/service description], emphasizing its benefits and why customers should choose it.
+Craft a persuasive email for [your product/service description], focusing on its unique features, benefits, and a strong call to action.
+Compose an attention-grabbing social media post to promote [product/service], showcasing its features and attractive visuals.
+Write an eye-catching email subject line to promote [product/service], encouraging recipients to open and read the email.
 ```
 
 
@@ -585,25 +585,23 @@ Write an email subject line to promote [product/service]
 #### Make a summary:
 
 ```
-Can you summarize the following:
-Write a brief summary of:
-What's the main idea of:
-Can you provide a condensed version of:
-Write a short summary of:
-What's the gist of:
-Can you provide an executive summary of:
-Write a quick overview of:
-What's the key takeaway from:
-Can you provide a condensed summary of:
+Summarize the following text in a brief and concise manner.
+What is the primary idea/message conveyed in the following content?
+Provide a condensed version of the following text, highlighting its key points.
+Write a short summary of the given content, emphasizing its main points and key takeaways.
+What is the main gist or essence of the following text?
+Can you provide an executive summary of the given content, outlining its main ideas and conclusions?
+Write a quick overview of the following text, highlighting its key themes and ideas.
+What is the most important or significant takeaway from the given content?
+Provide a condensed summary of the following text, highlighting its essential points and ideas.
 ```
 
 
 
 ## Style
 
-Better ✅:
-
-1. Identify the literary devices used in the following text:
+```
+Identify the literary devices used in the following text:
 
 Text: """
 {input text}
@@ -612,8 +610,9 @@ Text: """
 Literary devices:
 
 ---
-
-2. Identify the key themes in the following passage:
+```
+```
+Identify the key themes in the following passage:
 
 Text: """
 {input text}
@@ -622,8 +621,9 @@ Text: """
 Key themes:
 
 ---
-
-3. Provide a detailed analysis of the following text, focusing on its structure, themes, and literary devices:
+```
+```
+Provide a detailed analysis of the following text, focusing on its structure, themes, and literary devices:
 
 Text: """
 {input text}
@@ -632,8 +632,9 @@ Text: """
 Analysis:
 
 ---
-
-4. Provide an in-depth analysis of the following passage, examining its themes, author's perspective, and literary techniques:
+```
+```
+Provide an in-depth analysis of the following passage, examining its themes, author's perspective, and literary techniques:
 
 Text: """
 {input text}
@@ -642,8 +643,9 @@ Text: """
 In-depth analysis:
 
 ---
-
-5. Provide an interpretation of the following text, discussing its meaning, themes, and underlying messages:
+```
+```
+Provide an interpretation of the following text, discussing its meaning, themes, and underlying messages:
 
 Text: """
 {input text}
@@ -652,8 +654,9 @@ Text: """
 Interpretation:
 
 ---
-
-6. Identify the key elements of the following passage, such as themes, literary devices, and author's perspective:
+```
+```
+Identify the key elements of the following passage, such as themes, literary devices, and author's perspective:
 
 Text: """
 {input text}
@@ -662,8 +665,9 @@ Text: """
 Key elements:
 
 ---
-
-7. Discuss the strengths and weaknesses of the following passage, considering its structure, themes, and literary techniques:
+```
+```
+Discuss the strengths and weaknesses of the following passage, considering its structure, themes, and literary techniques:
 
 Text: """
 {input text}
@@ -673,7 +677,9 @@ Strengths:
 Weaknesses:
 
 ---
-8. Analyze the author's point of view in the following passage, considering their perspective and tone:
+```
+```
+Analyze the author's point of view in the following passage, considering their perspective and tone:
 
 Text: """
 {input text}
@@ -682,8 +688,9 @@ Text: """
 Author's point of view:
 
 ---
-
-9. Identify the central argument of the following text, and discuss its main supporting points:
+```
+```
+Identify the central argument of the following text, and discuss its main supporting points:
 
 Text: """
 {input text}
@@ -692,8 +699,9 @@ Text: """
 Central argument:
 
 ---
-
-10. Determine the intended audience for the following passage, considering its content, tone, and style:
+```
+```
+Determine the intended audience for the following passage, considering its content, tone, and style:
 
 Text: """
 {input text}
@@ -702,8 +710,9 @@ Text: """
 Intended audience:
 
 ---
-
-11. Discuss the message conveyed by the following passage, focusing on its themes and underlying ideas:
+```
+```
+Discuss the message conveyed by the following passage, focusing on its themes and underlying ideas:
 
 Text: """
 {input text}
@@ -712,8 +721,9 @@ Text: """
 Message:
 
 ---
-
-12. Analyze the structure of the following passage, discussing its organization and development of ideas:
+```
+```
+Analyze the structure of the following passage, discussing its organization and development of ideas:
 
 Text: """
 {input text}
@@ -722,8 +732,9 @@ Text: """
 Structure:
 
 ---
-
-13. Write a commentary on the following text, providing insights on its themes, style, and literary devices:
+```
+```
+Write a commentary on the following text, providing insights on its themes, style, and literary devices:
 
 Text: """
 {input text}
@@ -732,8 +743,9 @@ Text: """
 Commentary:
 
 ---
-
-14. Write a critical analysis of the following passage, examining its themes, structure, and literary techniques:
+```
+```
+Write a critical analysis of the following passage, examining its themes, structure, and literary techniques:
 
 Text: """
 {input text}
@@ -742,8 +754,9 @@ Text: """
 Critical analysis:
 
 ---
-
-15. Write a review of the following text, discussing its strengths, weaknesses, and overall impact:
+```
+```
+Write a review of the following text, discussing its strengths, weaknesses, and overall impact:
 
 Text: """
 {input text}
@@ -752,8 +765,9 @@ Text: """
 Review:
 
 ---
-
-16. Summarize the main points made in the following passage:
+```
+```
+Summarize the main points made in the following passage:
 
 Text: """
 {input text}
@@ -762,8 +776,9 @@ Text: """
 Summary:
 
 ---
-
-17. Generate reading comprehension questions based on the following passage:
+```
+```
+Generate reading comprehension questions based on the following passage:
 
 Text: """
 {input text}
@@ -772,8 +787,9 @@ Text: """
 Questions:
 
 ---
-
-18. Provide a summary and evaluation of the following passage, discussing its main ideas and effectiveness:
+```
+```
+Provide a summary and evaluation of the following passage, discussing its main ideas and effectiveness:
 
 Text: """
 {input text}
@@ -783,8 +799,10 @@ Summary:
 Evaluation:
 
 ---
-
-19. Analyze the following text, focusing on its themes, structure, and literary devices:
+---
+```
+```
+Analyze the following text, focusing on its themes, structure, and literary devices:
 
 Text: """
 {input text}
@@ -793,8 +811,9 @@ Text: """
 Analysis:
 
 ---
-
-20. Share your thoughts on the following passage, discussing its content, style, and impact:
+```
+```
+Share your thoughts on the following passage, discussing its content, style, and impact:
 
 Text: """
 {input text}
@@ -803,8 +822,9 @@ Text: """
 Thoughts:
 
 ---
-
-21. Discuss what you agree or disagree with in the following passage, and provide reasons for your stance:
+```
+```
+Discuss what you agree or disagree with in the following passage, and provide reasons for your stance:
 
 Text: """
 {input text}
@@ -814,8 +834,9 @@ Agree:
 Disagree:
 
 ---
-
-22. Identify the central idea of the following passage and discuss its development throughout the text:
+```
+```
+Identify the central idea of the following passage and discuss its development throughout the text:
 
 Text: """
 {input text}
@@ -824,8 +845,9 @@ Text: """
 Central idea:
 
 ---
-
-23. Write a critique of the following text, evaluating its content, structure, and style:
+```
+```
+Write a critique of the following text, evaluating its content, structure, and style:
 
 Text: """
 {input text}
@@ -834,8 +856,9 @@ Text: """
 Critique:
 
 ---
-
-24. Provide a response to the following passage, discussing its themes, messages, and impact:
+```
+```
+Provide a response to the following passage, discussing its themes, messages, and impact:
 
 Text: """
 {input text}
@@ -844,8 +867,9 @@ Text: """
 Response:
 
 ---
-
-25. Evaluate the argument presented in the following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies:
+```
+```
+Evaluate the argument presented in the following passage, and assess the author's use of evidence, logical reasoning, and rhetorical strategies:
 
 Text: """
 {input text}
@@ -853,6 +877,7 @@ Text: """
 
 Evaluation:
 
+```
 
 
 ## Advanced prompting techniques
