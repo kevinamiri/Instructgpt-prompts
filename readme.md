@@ -10,7 +10,7 @@ This project consists of prompts for ChatGPT and GPT-3.5 models that are designe
 
 ## Why to use:
 
-This is a easy and simple prompting technique that can be used to instruct the model to do almost anything. It is a simple structure that can be used to give instructions to the model. It is a flexible way to give instructions and solve any language-related task.
+This is an easy and straightforward method for guiding the model to do almost anything. It uses a simple structure to provide directions and can adapt to handle any language-related task.
 
 
 ## How to use:
