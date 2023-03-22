@@ -607,7 +607,7 @@ Provide a condensed summary of the following text, highlighting its essential po
 
 
 
-## Style:
+## Style & Format
 ---
 When creating prompts, adopting a specific style is essential for several reasons. A well-defined style helps in the following ways:
 
@@ -635,39 +635,150 @@ By carefully considering the style and crafting your prompts accordingly, you ca
 
 ---
 
+Identifying Main Arguments
+
+
 ```
-Identify the key themes in the following passage:
+Identify the main arguments presented in the following text. List them in the format below.
+
+Argument 1:
+Argument 2:
+...
+Text: """
+{text input here} 
+
+"""
+```
+
+Review Analysis
+
+
+```
+Analyze the customer review provided below and list the positive and negative aspects mentioned. write them in the format below.
+
+Positive aspects:
+
+- Aspect 1:
+- Aspect 2: 
+... 
+
+Negative aspects:
+
+- Aspect 1:
+- Aspect 2:
+...
+
+Review: """
+{customer_review_here}
+"""
+```
+
+Comparing Ideas
+
+
+```
+Compare the two ideas presented in the following text. Please provide the similarities and differences in the format below.
+
+Similarities:
+
+- Similarity 1:
+- Similarity 2: 
+- ... 
+
+Differences:
+
+- Difference 1:
+- Difference 2: 
+- ...
 
 Text: """
-{input text}
+{text input here}
 """
-
-Key themes:
-
 ```
 
+Identifying Key Information
 
 ```
-Identify the central argument of the following text, and discuss its main supporting points:
+Extract the key information from the following paragraph. First, identify the main problem, then list any solutions mentioned, and finally note the potential benefits of implementing these solutions. Use following format.
+
+Main problem:
+
+- Problem 1
+- Problem 2
+...
+
+Solutions:
+
+- Solution 1:
+- Solution 2: 
+...
+
+Potential benefits:
+
+- Benefit 1:
+- Benefit 2:
+...
 
 Text: """
-{input text}
+
+{text input here}
+
 """
-
-Central argument:
-
 ```
 
+Generating Ideas
+
+
 ```
-Discuss the message conveyed by the following passage, focusing on its themes and underlying ideas:
+Generate a list of 10 creative ideas for a new mobile app. The app should be focused on helping people improve their mental health and wellbeing. List them in the format below.
+
+Idea 1:
+Idea 2:
+...
+Idea 10:
+```
+
+Paraphrasing
+
+```
+Paraphrase the following sentence: 
+
+Artificial intelligence has the potential to transform many aspects of our lives, but it also comes with significant risks.
+
+New sentence: While artificial intelligence can revolutionize various aspects of our existence, it is not without considerable dangers.
+```
+
+Extraction with defined format
+
+```
+Extract the important entities mentioned in the article below. First extract all company names, then extract all people names, then extract specific topics which fit the content and finally extract general overarching themes
+Desired format:
+Company names: <comma_separated_list_of_company_names>
+People names: -||-
+Specific topics: -||-
+General themes: -||-
 
 Text: """
-{input text}
+{text input here}
 """
+```
 
-Message:
+Extraction using few-shot
 
 ```
+Extract keywords from the corresponding texts below.
+
+Text: {text1}
+Keywords: {example_of_keywords_for_text1}
+###
+Text: {text2}
+Keywords: {example_of_keywords_for_text2}
+###
+Text: {text3}
+
+Keywords:
+```
+
 
 
 ## Advanced prompting techniques  
