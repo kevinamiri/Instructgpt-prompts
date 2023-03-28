@@ -204,7 +204,7 @@ Instruction verbs that are useful for comparison tasks
   - `Evaluate` the two given passages and determine which one is more effective
 
 
-### Strcutute of common instruct prompts:
+### Structure of common instruct prompts:
 
 A basic and useful structure of an instruct prompts can be look like this:
 
