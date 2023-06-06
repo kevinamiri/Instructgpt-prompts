@@ -607,31 +607,48 @@ Provide a condensed summary of the following text, highlighting its essential po
 
 
 
-## Style & Format
+## Prompting Tips
 ---
-When creating prompts, adopting a specific style is essential for several reasons. A well-defined style helps in the following ways:
+Zero-shot: Simply provide input and get a response. Useful for basic tasks but unpredictable results.
 
-1. Consistency: A consistent style makes your prompts more predictable and easier to understand for the AI model. It ensures that the model receives clear instructions and produces the desired output across multiple prompts.
+Few-shot: Give a few examples showing the desired input-output pairs. Carefully selecting and ordering examples reduces variability. Works well when examples convey the style or format you want.
 
-2. Clarity: A well-defined style ensures that your instructions are clear and unambiguous. This reduces the chances of the AI model misunderstanding your prompt or generating irrelevant or undesired responses.
+Instructions: Directly tell the AI system what you want it to do, e.g. “Summarize this news article.” Can combine with few-shot prompting.
 
-3. Efficiency: A good style allows you to communicate your requirements effectively, reducing the need for multiple iterations or adjustments to the prompt. This saves time and resources.
+Chain-of-thought prompting: Ask the AI system to explain its reasoning step-by-step before concluding. Use few-shot or zero-shot. Complex examples and ensembling multiple systems help. Extract just the final answer to show users.
 
-4. Customization: By adopting a specific style, you can tailor the output to match your desired tone, format, and level of detail. This is particularly useful when trying to generate content that adheres to a particular brand voice, industry standard, or target audience.
 
-When choosing a style for your prompts, consider the following factors:
+Intro:
+- Responses are the text that the model generates based on the prompt. Prompts are the key to getting good responses.
+- Prompts are questions or instructions that you give to the model to get the response you want.
+- Think of instruction-followings models as a newly hired contractor who needs very specific instructions to complete a task.
 
-1. Detail and specificity: Be as specific and detailed as possible about the desired context, outcome, length, format, and style.
+Being specific:
+- Give clear examples and explanations. More examples improve understanding.
+- Provide context and details as if you were explaining the task to a child
+- Be as specific and descriptive as possible to guide the model to the correct response
+- Give examples to help the model understand what you want.
 
-2. Instruction placement: Put instructions at the beginning of the prompt, and use separators like ### or """ to separate the instruction and context.
+Describe the tone, style, or format
+- Instruct the model to use a particular tone or style in its response
+    - Example: “Write a short story in an exciting, suspenseful tone. Use archaic language.”
+- Ask for a response in a particular format, such as a list or table josn, markdown, html, etc.
+    - Example: “Categories the following items into a table with three columns, name, price, and category; In markdown format”
+- Use tags like <article>content of the article ...</article> to define structure in your prompt
+- For example, wrap a long piece of text in <p> tags to tell the model to treat it as a paragraph
+- specify the number of words or sentences in the response, You can also specify the time to reading the content, for instance, '10 minutes reading time'; Specifying an exact number of characters is less effective
 
-3. Examples: Provide examples of the desired output format, which helps the model understand your expectations better.
+Provide a clear goal:
+- Explain the task and what you expect the model to do
+- Anticipate possible errors and instruct the model how to handle them
+- Tell the model to explain its thinking before giving a final conclusion. 
 
-4. Avoid fluff: Use concise and precise language to minimize ambiguity and confusion.
-
-5. Positive instructions: Instead of just saying what not to do, say what to do instead.
-
-By carefully considering the style and crafting your prompts accordingly, you can improve the quality and relevance of the AI model's responses, ultimately making your interactions with the AI more efficient and effective. [read more](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+Breaking down complex tasks
+- Break down complex prompts into subtasks or multiple prompts to improve results
+- Use `Let's think step by step` to break down the task into sub components so the model would consider each step.
+   - Example: “Think through the steps required to solve this math problem, then provide the solution.”
+   - Example: “Describe your thought process for determining the theme of this short story.”
+- Tell the model to explain its thinking before giving a final conclusion.
 
 ---
 
