@@ -32,7 +32,7 @@
     - Text Summarization : Creating a concise summary of a longer piece of text.
     - Extractive Summarization : Generating a summary by selecting important sentences or phrases from the original text.
     - Abstractive Summarization : Producing a summary that captures the main points of the original text, but may use new wording or phrasing.
-- Synthesis Tasks\
+- Synthesis Tasks
     - Synthesis and Merging : Combining information from multiple sources to create a coherent and comprehensive output. 
 - Programming Tasks
     - Natural Language Programming : Using natural language to interact with or instruct computer programs.
