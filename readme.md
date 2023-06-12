@@ -1,8 +1,8 @@
-# A collection of ChatGPT, GPT-3.5, GPT-4 prompts
+# Instruction-following prompts for ChatGPT, GPT-3.5, GPT-4
 
-This project consists of prompts for ChatGPT and GPT-3.5 models that are designed to help with writing, analysis, and comprehension tasks. There are many different prompts available for you to use, and you can use them to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. With these prompts, you will guide the models to solve any language-related task by using the right instructional verbs.
+This project consists of prompts for ChatGPT and GPT-3.5 models, designed to assist with writing, analysis, and comprehension tasks. There are numerous prompts below that you can use to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. By using the appropriate instructional verbs, you can guide the models to solve any language-related tasks.
 
-[InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
+[InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using instructions and  human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
 
 [ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
 
