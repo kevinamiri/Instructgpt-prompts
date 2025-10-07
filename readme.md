@@ -1,16 +1,32 @@
-# Instruction-following prompts for ChatGPT, GPT-3.5, GPT-4
+# Instruction-following prompts for GPT-instruct, GPT-3.5
 
-This project consists of prompts for ChatGPT and GPT-3.5 models, designed to assist with writing, analysis, and comprehension tasks. There are numerous prompts below that you can use to generate content for your projects, debug your code, find solutions to problems, or simply learn more about what these models can do. By using the appropriate instructional verbs, you can guide the models to solve any language-related tasks.
 
-[InstructGPT](https://arxiv.org/abs/2203.02155) (more recent versions refered as GPT-3.5) are series language models that has been trained using instructions and  human feedback to better understand and align with a user's intent, producing more accurate and appropriate outputs.
+[InstructGPT](https://arxiv.org/abs/2203.02155) were the first series of language models that had been trained using supervised fine-tuning on top of the base model.
 
-[ChatGPT](https://openai.com/blog/chatgpt/) also uses instructGPT method but in a dialogue form to understand user instruction along and generate outputs based on user's instruct.
+This project consists of prompts, and strategies designed for GPT-instruct (late 2020) and later GPT-3.5-instruct, which is the first instruction-tuned version of GPT-3, trained to follow instructions and solve language-related tasks through zero-shot prompting. This instruction-following capability represents an important step toward aligning large language models with human intent.
 
-[GPT4](https://openai.com/research/gpt-4) More powerful than any GPT-3.5 model, it can handle more complex instructions and can follow and apply them more effectively.
 
-## Why to use:
+Language models are senstive to phrasinng, first afew words and latest few words in the context.
 
-This is an easy and straightforward method for guiding the model to do almost anything. It uses a simple structure to provide directions and can adapt to handle any language-related task.
+**Phrasing:**
+On the phrasing side, small changes in wording, style or formatting can cause accuracy swings. Some studies show that accuracy in few-shot tasks can vary by up to 76 percentage points depending on prompt formatting [1], and semantically equivalent instructions can produce wide gaps between best- and worst-case performance—even as high as 45 points for large models [2][3][4][5].
+
+**Position:**
+In addition to phrasing, models are also highly sensitive to position. When we give them long texts, they tend to focus more on the first and last parts than the middle, overlooking important details in between. This is known as the "Lost in the Middle" effect. As the result, Language models tend to overweighting on what's at the beginning and the end of prompts [6]. This "U-shaped" effect also known as primacy and recency biases, where the first and last pieces of information are given more weight, some even suggest that this serial-position effects akins to human cognition [7].
+
+
+These position and phrasing sensitivities are strongest in *base* or *SFT-only* models; reinforcement-aligned (RLHF) models are noticeably sturdier[9][10][11]. So this guide is more applicable to base models and SFT-only models.
+
+
+## How it works:
+
+It uses a simple structure to provide directions and can adapt to handle any language-related task. The first few tokens—especially verbs such as *“given,” “following,” “the following,” or “following passage”* carrie disproportionate weight in steering model behavior[8][9].
+
+
+Structure:
+- Direct background
+- Give context
+- Instruct action
 
 
 ## How to use:
@@ -951,4 +967,26 @@ Conclusion: Sum up the project and provide any additional information.
 ```
 Write a GitHub readme page for a project. The readme page should include an introduction to the project, its purpose, installation instructions, and usage instructions. The language should be clear and concise
 ```
+
+
+
+
+### References
+
+1. [Quantifying LMs’ Sensitivity to Prompt Formatting](https://arxiv.org/abs/2406.08483)
+2. [On the Worst Prompt Performance of LLMs](https://arxiv.org/abs/2406.04692)
+3. [Open Clinical LLMs Are Sensitive to Instruction Phrasings](https://arxiv.org/abs/2310.01968)
+4. [What Did I Do Wrong? Quantifying LLMs’ Sensitivity and Consistency to Prompt Rephrasings](https://arxiv.org/abs/2401.17814)
+5. [Large Language Models Are Sensitive to the Order of Options](https://arxiv.org/abs/2310.10846)
+6. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+7. [Word Importance Explains How Prompts Affect LLMs](https://arxiv.org/abs/2403.03028)
+8. [Which Words Matter Most in Zero-Shot Prompts?](https://arxiv.org/abs/2502.03418)
+9. [Do Models Really Learn to Follow Instructions?](https://aclanthology.org/2023.acl-short.113/)
+10. [Training Language Models to Follow Instructions with Human Feedback (InstructGPT)](https://arxiv.org/abs/2203.02155)
+11. [Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652)
+
+
+
+
+
 
